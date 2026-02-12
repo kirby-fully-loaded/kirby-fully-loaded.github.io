@@ -81,3 +81,7 @@ p.callout {
 #secondLayout #callout3 { grid-area: c3; }
 #secondLayout #callout4 { grid-area: c4; }
 #secondLayout #Bio { grid-area: b1; }
+
+#secondlayout p{
+    width: 100%
+}
