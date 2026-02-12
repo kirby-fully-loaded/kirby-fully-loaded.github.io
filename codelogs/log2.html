@@ -23,7 +23,41 @@
         Types of Measurement
      </h2>
      <p>
-        There are two primary types of CSS measurement: aboslute and relative. An absolute measurement always displays at its defined size, without reference to other elements. In contrast, a relative measurement's dislpay depends on some other element, as defined by its type.
+        There are two primary types of CSS measurement: aboslute and relative. An absolute measurement always displays at its defined size, without reference to other elements. In contrast, a relative measurement's dislpay depends on some other element, as defined by its type. Absolute measurements are not compatible with other measurements affecting the same dimensions, but relative measurements may be compatible with other relative measurements.
+     </p>
+     <p>
+        The following are different types of CSS measurements.
+        <ul>
+            <li>px, pt</li>
+                <ul>
+                    <li>
+                        Pixels, abbreviated to px, are an absolute measurement defined as 1/96th of 1 inch. An element defined using px will always display at the defined size regardless of the screen or window's size, making it unsuitable for web display due to the wide variety in both screen and window dimensions. However, it is suitable when designing displays intended for real-media print, such as magazines or newspapers.
+                    </li>
+                    <li>
+                        Points, abbreviated to pt, are an absolute measurement defined as 1/72nd of 1 inch. Like px, pt is unsuitable for screen displays, but suitable for print displays being designed on a computer.
+                    </li>
+                </ul>
+            <li>vw, vh</li>
+                <ul>
+                    <li>
+                        View width, abbreviated to vw, is a relative measurement equal to 1% of the horizontal dimension of the window in which the element is displayed. This measurement is more suitable for web displays because it automatically adjusts to the horizontal lenght of the display.
+                    </li>
+                    <li>
+                        View height, abbreviated to vh, is a relative measurement to 1% of the vertical dimension of the window in which the element is displayed. Like vw, this measurement is suitable for web displays because it accolodates the vertical length of the display.
+                    </li>
+                    <li>vw and vh are often used together, especially when the width to height ratio of an element, like an image, needs to remain consistent for best readbility.</li>
+                </ul>
+            <li>vmax, vmin</li>
+                <ul>
+                    <li>
+                        View maximum, abbreviated to vmax, is a relative measurement equal to 1% of a viewport's largest dimension. By assigning a vmax property, one can prevent an element from exceeding the designated percentage of a window or screen's current size.
+                    </li>
+                    <li>
+                        View minimum, abbreviated to vmin, is a relative measurement equal to 1% of a viewport's smallest dimension. Like vmax, vmin is useful for preventing an element from exceeding the designated percentage of a window or screen's current size.
+                    </li>
+                    <li>vmax and vmin can both be used alongside vw and vh to produce a scaling effect within a certain range of a viewport's size. For eample, you could use use vw to define automatic horizontal scaling up to a percentage of the viewport determined by vmax.</li>
+                </ul>
+        </ul>
      </p>
 
 </body>
