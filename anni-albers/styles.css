@@ -29,9 +29,11 @@ p {
 p.callout {
     font-style: italic;
     line-height: 1rem;
+    float: right;
+    
 }
 
 #row1 p,
-#row2 p {
+#row3 p {
     margin-left: calc(100% * 2 / 6);
 }
