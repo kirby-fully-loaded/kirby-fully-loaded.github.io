@@ -25,3 +25,8 @@ p {
     line-height: 2.5rem;
     
 }
+
+p.callout {
+    font-style: italic;
+    line-height: 1rem;
+}
