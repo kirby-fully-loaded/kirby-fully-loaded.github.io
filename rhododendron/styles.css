@@ -54,6 +54,22 @@ header {
     font-style: italic;
 }
 
+#infoSource {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: darkslategray;
+}
+
+#imageSource {
+    position: fixed;
+    z-index: 2;
+    right: 0;
+    bottom: 0;
+    opacity: 50%
+    color: floralwhite;
+}
+
 @media screen and (orientation: landscape) {
     
     #bgFlower1 {
