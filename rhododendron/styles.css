@@ -50,6 +50,10 @@ header {
     width: 100vw;
 }
 
+.scienceName {
+    font-style: italic;
+}
+
 @media screen and (orientation: landscape) {
     
     #bgFlower1 {
