@@ -55,11 +55,8 @@ header {
 }
 
 #infoSource {
-    position: absolute;
-    z-index: 2;
     opacity: 50%;
     color: floralwhite;
-    background-color: darkslategray;
 }
 
 #imageSource {
