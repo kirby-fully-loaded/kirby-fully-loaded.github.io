@@ -62,7 +62,7 @@ header {
 #imageSource {
     position: absolute;
     z-index: 2;
-    right: 0;
+    right: 4vw;
     bottom: 0;
     opacity: 50%;
     color: floralwhite;
@@ -96,9 +96,9 @@ header {
     #imageSource {
     position: fixed;
     z-index: 2;
-    right: 0;
+    right: 4vw;
     bottom: 0;
-    opacity: 50%;
+    opacity: 75%;
     color: floralwhite;
 }
 
