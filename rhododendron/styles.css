@@ -36,4 +36,20 @@ header {
     left: 1em;
     color:floralwhite;
     font-size: 2.5em;
+    width: calc(100vw - 2em);
+}
+
+@media screen and (orientation: landscape) {
+    #bgFlower1 {
+        width: 50vw;
+        right: 50vw
+    }
+    #flowerTitle {
+        width: 50vw;
+        background-color:darkslategray;
+    }
+    #flowerTitle h1{
+        width: 45vw;
+    }
+
 }
