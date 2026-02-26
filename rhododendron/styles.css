@@ -52,5 +52,12 @@ header {
         top: 0;
         width: 45vw;
     }
+    #quickFacts {
+    position: absolute;
+    top: 10;
+    left: 1em;
+    color:floralwhite;
+    width: 50vw;
+    }
 
 }
