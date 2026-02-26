@@ -5,7 +5,7 @@
 	<!-- meta tags and title -->
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Page Title</title>
+	<title>CSS Media Queries</title>
 
 	<!-- external and internal CSS -->
 	<link rel="stylesheet" href="styles.css" media="all">
@@ -16,7 +16,65 @@
 </head>
 <body>
 
-	<!-- HTML elements here -->
+    <h1>CSS Media Queries</h1>
+	<main>
+        <h2>What is a media query?</h2>
+        <p>
+            A media query is a rule that tells a website how to display or behave when 
+            a defined condition or set of conditions are met by a device or browser.
+            Media queries do so by first checking for a type of medium, which can be "all",
+            "print", or "screen", and then checking for a feature of that medium, such as
+            one of the following:
+        </p>
+        <ul>
+            <li>width</li>
+                <ul>
+                    <li>
+                        This determines the width of the viewport (not the device width),
+                        which is particularly useful for both browsers (on desktops) and
+                        for layouts designed for print.
+                    </li>
+                </ul>
+            <li>inverted-colors</li>
+                <ul>
+                    <li>
+                        This determines whether the device or browser is using inverted colors;
+                        it is useful for accessibility reasons, such as determining whether
+                        a user has a color-based sight impairment, and would benefit from
+                        appropriate accommodations.
+                    </li>
+                </ul>
+            <li>hover</li>
+                <ul>
+                    <li>
+                        This feature determines whether the interface device is capable of hovering. 
+                        This information is valuable for detecting whether a user is viewing the site 
+                        on a touch-screen, which cannot hover, or whether they are using a keyboard or 
+                        screen-reader. This information is valuable for both display considerations 
+                        (for touchscreens) and for determining how to organize information (for 
+                        both touchscreens and screen-readers).
+                    </li>
+                </ul>
+            <li>Orientation</li>
+                <ul>
+                    <li>
+                        This determines whether a viewport, like a screen or a browser, is currently 
+                        in either landscape or portrait display mode. This particular feature is 
+                        useful in designing responsive websites, because it allows a site to change 
+                        its display mode depending on the device's orientation, meaning a single 
+                        page can display effectively on different device orientations, such as 
+                        smartphones or desktop monitors.
+                    </li>
+                </ul>
+        </ul>
+        <p>
+            Once a feature's properties have been determined, the site can alter how it behaves or displays
+            content, such as changing layout based on portrait or landscape orientation, or reformatting
+            tooltips if a device currently lacks the ability to hover. However, the designer decides what 
+            a site does when receiving a positive response to its media query; the query only directs the site 
+            according to the designer's code.
+        </p>
+    </main>
 
 </body>
 </html>
