@@ -41,7 +41,7 @@ header {
     width: calc(100vw - 2em);
 }
 
-#quickFacts {
+#info {
     position: absolute;
     z-index: 2;
     padding: 4vw;
@@ -56,6 +56,7 @@ header {
 
 #infoSource {
     position: absolute;
+    z-index: 1;
     bottom: 0;
     left: 0;
     color: floralwhite;
@@ -63,7 +64,7 @@ header {
 }
 
 #imageSource {
-    position: absolute;
+    position: fixed;
     z-index: 2;
     right: 0;
     bottom: 0;
@@ -78,15 +79,18 @@ header {
         width: 50vw;
         left: 50vw;
     }
+
     #flowerTitle {
         width: 50vw;
         background-color: darkslategray;
     }
+
     #flowerTitle h1{
         bottom: 0;
         width: 45vw;
     }
-    #quickFacts {
+
+    #info {
     position: absolute;
     width: 50vw;
     color: floralwhite;
