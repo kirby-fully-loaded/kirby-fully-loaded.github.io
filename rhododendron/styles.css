@@ -17,6 +17,7 @@ header {
 
 #bgFlower1 {
     position: absolute;
+    z-index: 1;
     width: 100vw;
     height: 100vh;
     background-image:url("bgflower-1.jpeg");
@@ -25,7 +26,8 @@ header {
 }
 
 #flowerTitle {
-    position: absolute;
+    position: relative;
+    z-index: 2;
     width: 100vw;
     height: 100vh;
 }
@@ -33,31 +35,41 @@ header {
 #flowerTitle h1 {
     position: absolute;
     bottom: 0;
-    left: 1em;
+    left: 4vw;
     color:floralwhite;
     font-size: 2.5em;
     width: calc(100vw - 2em);
 }
 
+#quickFacts {
+    position: absolute;
+    z-index: 2;
+    padding: 4vw;
+    color:floralwhite;
+    background-color: darkslategray;
+    width: 100vw;
+}
+
 @media screen and (orientation: landscape) {
+    
     #bgFlower1 {
+        position: fixed;
         width: 50vw;
         left: 50vw;
     }
     #flowerTitle {
         width: 50vw;
-        background-color:darkslategray;
+        background-color: darkslategray;
     }
     #flowerTitle h1{
-        top: 0;
+        bottom: 0;
         width: 45vw;
     }
     #quickFacts {
     position: absolute;
-    top: 10;
-    left: 1em;
-    color:floralwhite;
     width: 50vw;
+    color: floralwhite;
+    background-color: darkslategray;
     }
 
 }
