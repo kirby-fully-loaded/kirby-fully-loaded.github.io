@@ -42,13 +42,14 @@ header {
 @media screen and (orientation: landscape) {
     #bgFlower1 {
         width: 50vw;
-        right: 50vw
+        left: 50vw;
     }
     #flowerTitle {
         width: 50vw;
         background-color:darkslategray;
     }
     #flowerTitle h1{
+        top: 0;
         width: 45vw;
     }
 
