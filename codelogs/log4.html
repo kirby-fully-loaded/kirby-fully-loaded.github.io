@@ -6,18 +6,49 @@
 	<!-- meta tags and title -->
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Page Title</title>
+	<title>CSS Color</title>
 
 	<!-- external and internal CSS -->
 	<link rel="stylesheet" href="styles.css" media="all">
 	<style>
-		/* in-file CSS here */
+		.bodyP{
+            width: 50vw
+        }
 	</style>
 
 </head>
 <body>
 
-	<!-- HTML elements here -->
+	<main>
+        <p class="bodyP">
+            CSS uses color in the form of code, and applies the color defined by the code to a specific element.
+            Color is a property of an element that must be defined through CSS, either in-line or on a CSS Styles sheet. 
+            If color is not defined, it will use the browser's default settings; these are usually black for foreground elements, 
+            and white for background elements.
+        </p>
+        <p>
+            Color can be applied to an element in the following ways:
+            <ul>
+                <li><background-color: lightgray><code><color: color></code></background-color></li>
+                    <ul>
+                        <li>This defines the color of foreground objects like text.</li>
+                    </ul>
+                <li><background-color: lightgray><code><background-color: color></code></background-color></li>
+                    <ul>
+                        <li>This defines the background color of an element; it can be useful for distinguishing 
+                            parts of a page's content, or improving readability of a webpage.
+                        </li>
+                    </ul>
+                <li><background-color: lightgray><code><border-color: color></code></background-color></li>
+                    <ul>
+                        <li>This defines the color of an element's border, if present. Like <code><bacgruond-color: color>
+                        </bacgruond-color></code> it is useful for distinguishing part of page content or improving 
+                        readbility.
+                        </li>
+                    </ul>
+            </ul>
+        </p>
+    </main>
 
 </body>
 </html>
