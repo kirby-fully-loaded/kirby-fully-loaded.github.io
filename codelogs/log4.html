@@ -36,8 +36,28 @@
             width: 100px;
             height: 100px;
         }
+        .rgbAlpha{
+            background-color: rgba(0,255,0,0.7);
+            width: 100px;
+            height: 100px;
+        }
         .hexBlue{
             background-color: #0000ff;
+            width: 100px;
+            height: 100px;
+        }
+        .hexTrans{
+            background-color: #0000ff54;
+            width: 100px;
+            height: 100px;
+        }
+        .hslColor{
+            background-color: hsl(180,75%,50%);
+            width: 100px;
+            height: 100px;
+        }
+        .hslTrans{
+            background-color: hsla(180,75%,50%,0.6);
             width: 100px;
             height: 100px;
         }
@@ -106,6 +126,13 @@
                                 format for non-coders and novice coders wishing to create custom color values for their websites 
                                 and pages.
                             </li>
+                            <li>
+                                RGB can also apply an "alpha" value which controls its transparency. This variation on RGB is 
+                                known as RGBA, and adds the alpha value after the blue value: <code>background-color: rgba
+                                (0,255,0, 0.7)</code>. The alpha value ranges from 0.0 (completely transparent) to 1.0 
+                                (completely opaque). USing the sample code, it would look something like this:
+                            </li>
+                            <li class="rgbAlpha"></li>
                         </ul>
                     <li>Hexadecimal</li>
                         <ul>
@@ -117,6 +144,30 @@
                                 the lowest value, they do not render. In contrast, the blue value is set to ff, the highest 
                                 value, so it appears with the greatest intensity.
                             </li>
+                            <li>
+                                Like RGB, Hexadecimal can add transparency to its formula. To add transparency to a hexadecimal 
+                                color, you would add a fourth value, following the same two-digit 00-ff scale, at the end of your 
+                                hexadecimal code. For example, <code>background-color: #0000ff54</code>. It would look like this:
+                            </li>
+                            <li class="hexTrans"></li>
+                        </ul>
+                    <li>HSL</li>
+                        <ul>
+                            <li class="hslColor"></li>
+                            <li class="codeSamp"><code>background-color: hsl(180,75%,50%)</code></li>
+                            <li>HSL stands for hue, saturation, lightness, and is a fourth type of color definition usable by 
+                                CSS. In this format, hue's value refers to a degree of the color wheel with red at the top 
+                                (both 0 and 360), green at degree 120, and blue at degree 240; the exact value needn't be one
+                                of these numbers, but they are useful as "waypoints" on the color wheel. Saturation and lightness 
+                                are both percentages, with saturation ranging from grayscale at 0% to full color at 100%, and 
+                                lightness ranging from black at 0% to white at 100%. The resulting color is a combination of 
+                                these three values.
+                            </li>
+                            <li>HSL can accept a fourth value known as alpha (like RGBA) which controls transparency. Like RGB, 
+                                the integer for this value can range from full transparency at 0.0 to full opacity at 1.0. For 
+                                example, <code>background-color: hsla(180,75%,50%,0.6)</code>, which would look like this:
+                            </li>
+                            <li class="hslaTrans"></li>
                         </ul>
                 </ul>
         </p>
