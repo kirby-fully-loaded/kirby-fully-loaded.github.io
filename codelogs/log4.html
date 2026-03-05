@@ -14,6 +14,9 @@
 		p{
             width: 50vw;
         }
+        ul{
+            width: 45vw;
+        }
         .codeSamp{
             background-color:gainsboro;
             width: fit-content
@@ -27,7 +30,6 @@
             background-color: rgb(0,255,0);
             width: 100px;
             height: 100px;
-            border-bottom: 5px;
         }
         .rgbGreen100{
             background-color: rgb(0%,100%,0%);
@@ -47,8 +49,8 @@
 	<main>
         <p>
             CSS uses color in the form of code, and applies the color defined by the code to a specific element.
-            Color is a property of an element that must be defined through CSS, eitherinline, internally, or on a CSS Styles sheet. 
-            If color is not defined, it will use the browser's default settings; these are usually black for foreground elements, 
+            Color is a property of an element that must be defined through CSS, either inline, internally, or on a CSS Styles 
+            sheet. If color is not defined, it will use the browser's default settings; these are usually black for foreground elements, 
             and white for background elements.
         </p>
         <p>
@@ -91,15 +93,26 @@
                     <li>RGB</li>
                         <ul>
                             <li class="rgbGreen255"></li>
+                            <li><code>background-color: rgb(0,255,0)</code></li>
                             <li class="rgbGreen100"></li>
-
+                            <li><code>background-color: rgb(0%,100%,0%)</code></li>
+                            <li>These two color fields both use RGB to determine their display, but use different scales to 
+                                determine their values. RGB uses three different values for Red, Green, and Blue (hence the name) 
+                                each of which scale individually. The two scales are 0-255, as used in the first color field, and 
+                                0%-100% as used in the second field. In both cases, the values determine the intensity of the 
+                                corresponding color; the percentage scale measures percentage of each color's intensity, not the 
+                                percentage of its representation relative to the other colors in the final displayed color. 
+                                Because of its capacity for percentage-based color manipulation, RGB may be the most accessible 
+                                format for non-coders and novice coders wishing to create custom color values for their websites 
+                                and pages.
+                            </li>
                         </ul>
                     <li>Hexadecimal</li>
                         <ul>
                             <li class="hexBlue"></li>
                             <li><code>background-color: #0000ff</code></li>
-                            <li>This is an example of the color blue defined using hexadecimal code. In hexadecimal, colors 
-                                colors are determined by assigning different values of red, green, and blue, following the format
+                            <li>This is an example of the color blue defined using hexadecimal code. In hexadecimal, colors
+                                are determined by assigning different values of red, green, and blue, following the format
                                 #RRGGBB, in values ranging from 00 to ff. Because the red and green values are each set to 00, 
                                 the lowest value, they do not render. In contrast, the blue value is set to ff, the highest 
                                 value, so it appears with the greatest intensity.
