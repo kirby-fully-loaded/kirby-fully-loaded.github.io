@@ -18,11 +18,21 @@
             background-color:gainsboro;
             width: fit-content
         }
+        .namedRed{
+            background-color: red;
+            width: 100px;
+            height: 100px;
+        }
+        .hexBlue{
+            background-color: #0000ff;
+            width: 100px;
+            height: 100px;
+        }
 	</style>
 
 </head>
 <body>
-
+    <h1>CSS Color</h1>
 	<main>
         <p class="bodyP">
             CSS uses color in the form of code, and applies the color defined by the code to a specific element.
@@ -51,6 +61,27 @@
                         </li>
                     </ul>
             </ul>
+        </p>
+        <p>
+            Colors for each of these properties can be defined in different ways through CSS, 
+            each of which have their pros and cons.
+                <ul>
+                    <li>Named</li>
+                        <ul>
+                            <li class="namedRed"></li>
+                            <li><code>background-color: red</code></li>
+                            <li>This is an example of the named color "red. "CSS includes a number of preset, named colors 
+                                to choose from. Unless you have specific colors you want to use, named colors are the most 
+                                likely to display your content as-intended on a given display, because they are most likely 
+                                to be supported by a given browser. However, the preset nature of these colors is necessarily 
+                                limitng, so one of the other means of defining color values might better serve your needs.
+                            </li>
+                        </ul>
+                    <li>Hexadecimal</li>
+                        <ul>
+                            <li class="hexBlue"></li>
+                        </ul>
+                </ul>
         </p>
     </main>
 
