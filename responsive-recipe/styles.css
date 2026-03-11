@@ -1,22 +1,37 @@
 * {
     box-sizing:border-box;
     font-family: arial, sans-serif;
+    padding: 0vw;
 }
 
 header {
     position: absolute;
-    bottom: 0vh;
+    background-color: saddlebrown;
+    left: 0;
+    bottom: 0;
+    color: wheat;
     z-index: 2;
 }
 
 #recipeTitle {
     width: 100vw;
-
+    text-align: center;
 }
 
 img {
-    position: absolute;
+    height: 100vh;
+    translate: -10vw -10vh;
     z-index: 1;
+}
+
+#ingredients {
+    left: 0;
+    width: 45vw;
+}
+
+#tools {
+    float: right;
+    width: 40vw;
 }
 
 @media screen and (orientation: landscape) {
