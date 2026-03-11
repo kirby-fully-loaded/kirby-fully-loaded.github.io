@@ -3,69 +3,6 @@
     font-family: arial, sans-serif;
 }
 
-body {
-    padding: 0;
-    margin: 0;
-}
-
-header {
-    width: 100vw;
-    height: 100vh;
-}
-
-#bgFlower1 {
-    position: absolute;
-    z-index: 1;
-    width: 100vw;
-    height: 100vh;
-    background-image:url("bgflower-1.jpeg");
-    background-size: cover;
-    background-position: center center;
-}
-
-#recipeTitle {
-    position: relative;
-    z-index: 2;
-    width: 100vw;
-    height: 100vh;
-}
-
-#recipeTitle h1 {
-    position: absolute;
-    bottom: 0;
-    left: 4vw;
-    color: black;
-    font-size: 2.5em;
-    width: calc(100vw - 2em);
-}
-
-#info {
-    position: absolute;
-    z-index: 2;
-    padding: 4vw;
-    color: black;
-    background-color: wheat;
-    width: 100vw;
-}
-
-.scienceName {
-    font-style: italic;
-}
-
-#infoSource {
-    opacity: 50%;
-    color: floralwhite;
-}
-
-#imageSource {
-    position: absolute;
-    z-index: 2;
-    right: 4vw;
-    bottom: 0;
-    opacity: 75%;
-    color: floralwhite;
-}
-
 @media screen and (orientation: landscape) {
     #main{
         display: grid;
@@ -93,4 +30,8 @@ header {
     #pastaList { grid-area: PL; }
     #sausageHead { grid-area: SH;}
     #sausageList { grid-area: SL; }
+
+    #p {
+        width: 100vw;
+    }
 }
