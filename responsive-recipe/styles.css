@@ -9,9 +9,10 @@
         grid: 100vw;
         column-gap: 10vw;
         grid-template-columns: repeat(8, auto 1fr);
-        grid-template-rows: repeat(8, auto);
+        grid-template-rows: repeat(9, auto);
         grid-template-areas:
-        '. RT RT RT RT RT RT .'
+        'RT RT RT RT RT RT RT RT'
+        'DD DD DD DD DD DD DD DD'
         '. TH TH IH IH PH PH .'
         '. TL TL IL IL PL PL .'
         '. IMG IMG IL IL PL PL .'
@@ -22,6 +23,7 @@
     }
 
     body #recipeTitle { grid-area: RT; }
+    body #describeDish { grid-area: DD; } 
     body #toolsHead { grid-area: TH; }
     body #toolsList { grid-area: TL; }
     body img {grid-area: IMG;}
