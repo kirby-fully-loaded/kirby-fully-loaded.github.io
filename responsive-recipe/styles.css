@@ -4,34 +4,31 @@
 }
 
 @media screen and (orientation: landscape) {
-    #main{
-        display: grid;
+        
+    #body{display: grid;
+        grid: 100vw;
         column-gap: 10vw;
         grid-template-columns: repeat(8, 1fr);
         grid-template-rows: repeat(8, auto);
-        Grid-template-areas:
+        grid-template-areas:
         '. RT RT RT RT RT RT .'
         '. TH TH IH IH PH PH .'
         '. TL TL IL IL PL PL .'
         '. IMG IMG IL IL PL PL .'
         '. IMG IMG IL IL PL PL .'
-        '. . . . . SH SH .'
-        '. . . . . SL SL .'
-        '. . . . . SL SL .'
+        '. IMG IMG . . SH SH .'
+        '. IMG IMG . . SL SL .'
+        '. IMG IMG . . SL SL .'
     }
 
-    #recipeTitle{ grid-area: RT; }
-    #toolsHead { grid-area: TH; }
-    #toolsList { grid-area: TL; }
-    #img {grid-area: IMG;}
-    #ingredientsHead { grid-area: IH; }
-    #ingredientsList { grid-area: IL; }
-    #pastaHead { grid-area: PH; }
-    #pastaList { grid-area: PL; }
-    #sausageHead { grid-area: SH;}
-    #sausageList { grid-area: SL; }
-
-    #p {
-        width: 100vw;
-    }
+    #body #recipeTitle{ grid-area: RT; }
+    #body #toolsHead { grid-area: TH; }
+    #body #toolsList { grid-area: TL; }
+    #body #img {grid-area: IMG;}
+    #body #ingredientsHead { grid-area: IH; }
+    #body #ingredientsList { grid-area: IL; }
+    #body #pastaHead { grid-area: PH; }
+    #body #pastaList { grid-area: PL; }
+    #body #sausageHead { grid-area: SH;}
+    #body #sausageList { grid-area: SL; }
 }
