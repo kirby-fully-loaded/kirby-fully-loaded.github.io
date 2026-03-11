@@ -5,33 +5,4 @@
 
 @media screen and (orientation: landscape) {
         
-    body{display: grid;
-        grid: 100vw;
-        column-gap: 10vw;
-        grid-template-columns: repeat(8, auto 1fr);
-        grid-template-rows: repeat(9, auto);
-        grid-template-areas:
-        'RT RT RT RT RT RT RT RT'
-        'DD DD DD DD DD DD DD DD'
-        '. TH TH IH IH PH PH .'
-        '. TL TL IL IL PL PL .'
-        '. IMG IMG IL IL PL PL .'
-        '. IMG IMG IL IL PL PL .'
-        '. IMG IMG . . SH SH .'
-        '. IMG IMG . . SL SL .'
-        '. IMG IMG . . SL SL .'
-    }
-
-    body #recipeTitle { grid-area: RT; }
-    body #describeDish { grid-area: DD; } 
-    body #toolsHead { grid-area: TH; }
-    body #toolsList { grid-area: TL; }
-    body img {grid-area: IMG;}
-    body #ingredientsHead { grid-area: IH; }
-    body #ingredientsList { grid-area: IL; }
-    body #pastaHead { grid-area: PH; }
-    body #pastaList { grid-area: PL; }
-    body #sausageHead { grid-area: SH;}
-    body #sausageList { grid-area: SL; }
-
 }
