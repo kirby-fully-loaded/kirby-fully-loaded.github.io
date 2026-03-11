@@ -71,7 +71,7 @@ header {
         display: grid;
         column-gap: 10vw;
         grid-template-columns: repeat(8, 1fr);
-        grid-template-rows: repeat(7, auto);
+        grid-template-rows: repeat(8, auto);
         Grid-template-areas:
         '. RT RT RT RT RT RT .'
         '. TH TH IH IH PH PH .'
