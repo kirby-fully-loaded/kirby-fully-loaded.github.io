@@ -23,18 +23,18 @@ header {
     background-position: center center;
 }
 
-#flowerTitle {
+#recipeTitle {
     position: relative;
     z-index: 2;
     width: 100vw;
     height: 100vh;
 }
 
-#flowerTitle h1 {
+#recipeTitle h1 {
     position: absolute;
     bottom: 0;
     left: 4vw;
-    color:floralwhite;
+    color: black;
     font-size: 2.5em;
     width: calc(100vw - 2em);
 }
@@ -43,8 +43,8 @@ header {
     position: absolute;
     z-index: 2;
     padding: 4vw;
-    color:floralwhite;
-    background-color: darkslategray;
+    color: black;
+    background-color: wheat;
     width: 100vw;
 }
 
