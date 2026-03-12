@@ -44,5 +44,64 @@ footer {
 }
 
 @media screen and (orientation: landscape) {
+    header {
+        Position: relative;
+        background-color: white;
+    }
+    
+    #recipeTitle {
+        background-color: saddlebrown;
+        left: 12.5vw;
+        text-align: left;
+        padding: 10px;
+    }
+
+    #describeDish {
+        color: black;
+    }
+
+    #tools {
+        position: absolute;
+        float: left;
+        left: 14vw;
+    }
+
+    #toolsHead {
+        color: wheat;
+        background-color: saddlebrown;
+        width: 100vw;
+    }
+
+    img {
+        position: absolute;
+        float: left;
+        top: 300px;
+        left: 12.5vw;
+        width: 28vw;
+        height: fit-content;
+        translate: 0vw 0vh;
+    }
+
+    #ingredients {
+        position: absolute;
+        left: 45vw;
+        width: 20vw;
         
+    }
+
+    #ingredientsHead {
+        color: wheat;
+        background-color: saddlebrown;
+    }
+
+    #directions {
+        position: absolute;
+        right: 10vw;
+        width: 20vw;
+    }
+
+    #pastaHead {
+        color: wheat;
+        background-color: saddlebrown;
+    }
 }
