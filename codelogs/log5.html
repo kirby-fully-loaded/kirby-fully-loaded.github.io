@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<!-- meta tags and title -->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Images</title>
+
+	<!-- external and internal CSS -->
+	<link rel="stylesheet" href="styles.css" media="all">
+	<style>
+		
+		main {
+			background-image: url(Pacific Rhododendron 2 - Gary Monroe-1.jpeg);
+			backdrop-filter: blur (5px);
+			backdrop-filter: grayscale (50%);
+		}
+
+		.codeSamp {
+			background-color:antiquewhite;
+			color: brown;
+		}
+
+	</style>
+
+</head>
+<body>
+
+	<h1>
+        Images
+    </h1>
+
+    <main>
+        <h2>
+            Elements and Backgrounds
+        </h2>
+		<p>
+			The main differences between an html element, such as <code class="codeSamp"><img></code>, and 
+			a background image <code class="codeSamp">background-image:</code> is that a background image is meant to serve 
+			essentially as white space for the webpage, while a foreground element like <code><img></code> has specific attention 
+			drawn to it, often because it is directly important to the content of the page; for example, it could be a 
+			representation of something the webpage is trying to disucss or inform the audience of.
+		</p>
+
+		<h2>
+			CSS Properties
+		</h2>
+		<p>
+			Certain CSS properties can be applied to background images, often changing the way they appear. One example 
+			is applying a border to an image, <code class="codeSamp"><border></code>, which would help it stand out as 
+			distinct from the busier webpages, particularly if the page uses an image or video as its background.
+		</p>
+		<p>
+			Another example is the backdrop filter property, <code class="codeSamp">backdrop-filter</code>, which can 
+			be used to apply a variety of effects between a foreground element and a background image. Like the border 
+			property, backdrop filters are useful for differentiating a noise background from the foreground, so that the 
+			foreground elements are more easily read. As you can see here, the background image is blurred and desaturated 
+			use of the grayscale property.
+		</p>
+
+		<h2>
+			Dimension and Resolution
+		</h2>
+		<p>
+			In a sentence, dimension is the human-observable width and height of an image, while resolution is the ability 
+			of an image to maintain quality at differing sizes.
+		</p>
+
+    </main>
+
+</body>
+</html>
