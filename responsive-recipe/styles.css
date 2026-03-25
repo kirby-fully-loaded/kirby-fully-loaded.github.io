@@ -1,7 +1,10 @@
 * {
     box-sizing:border-box;
     font-family: arial, sans-serif;
-    padding: 0vw;
+}
+
+ul {
+    padding-left: 1em;
 }
 
 header {
@@ -47,6 +50,11 @@ footer {
     header {
         Position: relative;
         background-color: white;
+    }
+
+    main {
+        position: relative;
+        min-height: 100vh;
     }
     
     #recipeTitle {
