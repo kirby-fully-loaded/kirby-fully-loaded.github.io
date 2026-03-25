@@ -1,0 +1,115 @@
+* {
+    box-sizing:border-box;
+    font-family: arial, sans-serif;
+}
+
+ul {
+    padding-left: 1em;
+}
+
+header {
+    position: absolute;
+    width: 100vw;
+    background-color: saddlebrown;
+    left: 0;
+    bottom: 0;
+    color: wheat;
+    z-index: 2;
+}
+
+#recipeTitle {
+    width: 100vw;
+    text-align: center;
+}
+
+img {
+    height: 100vh;
+    translate: -10vw -10vh;
+    z-index: 1;
+}
+
+#ingredients {
+    left: 0;
+    width: 45vw;
+}
+
+#tools {
+    float: right;
+    width: 40vw;
+}
+
+#directions {
+    width: 85vw;
+}
+
+footer {
+    width: 100vw;
+}
+
+@media screen and (orientation: landscape) {
+    header {
+        Position: relative;
+        background-color: white;
+    }
+
+    main {
+        position: relative;
+        min-height: 100vh;
+    }
+    
+    #recipeTitle {
+        background-color: saddlebrown;
+        left: 12.5vw;
+        text-align: left;
+        padding: 10px;
+    }
+
+    #describeDish {
+        color: black;
+    }
+
+    #tools {
+        position: absolute;
+        float: left;
+        left: 14vw;
+    }
+
+    #toolsHead {
+        color: wheat;
+        background-color: saddlebrown;
+        width: 100vw;
+    }
+
+    img {
+        position: absolute;
+        float: left;
+        top: 30vh;
+        left: 12.5vw;
+        width: 28vw;
+        height: fit-content;
+        translate: 0vw 0vh;
+    }
+
+    #ingredients {
+        position: absolute;
+        left: 45vw;
+        width: 20vw;
+        
+    }
+
+    #ingredientsHead {
+        color: wheat;
+        background-color: saddlebrown;
+    }
+
+    #directions {
+        position: absolute;
+        right: 10vw;
+        width: 20vw;
+    }
+
+    #pastaHead {
+        color: wheat;
+        background-color: saddlebrown;
+    }
+}
