@@ -83,7 +83,7 @@ footer {
     img {
         position: absolute;
         float: left;
-        top: 300px;
+        top: 30vh;
         left: 12.5vw;
         width: 28vw;
         height: fit-content;
