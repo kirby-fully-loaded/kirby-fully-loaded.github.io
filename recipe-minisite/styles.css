@@ -13,8 +13,6 @@ ol {
 
 header {
     position: relative;
-    padding-right: 1em;
-    padding-left: 1em;
     width: 100vw;
     background-color: saddlebrown;
     color: wheat;
@@ -32,6 +30,8 @@ header {
 
 #describeDish {
     font-style: italic;
+    padding-right: 1em;
+    padding-left: 1em;
 }
 
 img {
