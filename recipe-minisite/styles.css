@@ -26,6 +26,10 @@ header {
     text-align: center;
 }
 
+#describeDish {
+    font-style: italic;
+}
+
 img {
     height: 100vh;
     translate: -10vw -10vh;
