@@ -154,6 +154,7 @@ nav {
     width: 100%;
     height: var(--nav-height);
     background-color: var(--nav-bkgd-color);
+    z-index: 2;
 }
 
 #navBurger {
