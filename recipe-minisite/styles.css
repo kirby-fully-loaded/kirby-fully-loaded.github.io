@@ -87,9 +87,9 @@ footer {
     img {
         position: absolute;
         float: left;
-        top: 30vh;
+        top: 23vh;
         left: 12.5vw;
-        width: 28vw;
+        width: 25vw;
         height: fit-content;
         translate: 0vw 0vh;
     }
