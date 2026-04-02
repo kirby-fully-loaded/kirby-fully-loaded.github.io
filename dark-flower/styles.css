@@ -12,7 +12,7 @@ body {
     color: black;
 }
 
-#darkMode {
+.darkMode {
     background-color: darkslategray;
     color: floralwhite
 }
@@ -45,6 +45,7 @@ header {
     left: 4vw;
     font-size: 2.5em;
     width: calc(100vw - 2em);
+    color: floralwhite
 }
 
 #info {
@@ -87,6 +88,7 @@ header {
     #flowerTitle h1{
         bottom: 0;
         width: 45vw;
+        color: black
     }
 
     #info {
