@@ -9,6 +9,12 @@ body {
     padding: 0;
     margin: 0;
     background-color: darkslategray;
+    color: floralwhite;
+}
+
+#darkMode {
+    background-color: darkslategray;
+    color: floralwhite
 }
 
 header {
@@ -37,7 +43,6 @@ header {
     position: absolute;
     bottom: 0;
     left: 4vw;
-    color:floralwhite;
     font-size: 2.5em;
     width: calc(100vw - 2em);
 }
@@ -46,7 +51,6 @@ header {
     position: absolute;
     z-index: 2;
     padding: 4vw;
-    color:floralwhite;
     width: 100vw;
 }
 
@@ -56,7 +60,6 @@ header {
 
 #infoSource {
     opacity: 50%;
-    color: floralwhite;
 }
 
 #imageSource {
@@ -65,7 +68,6 @@ header {
     right: 4vw;
     bottom: 0;
     opacity: 75%;
-    color: floralwhite;
 }
 
 /* Begin responsive design here*/
@@ -93,7 +95,6 @@ header {
     #info {
     position: absolute;
     width: 50vw;
-    color: floralwhite;
     }
 
     #imageSource {
@@ -102,7 +103,6 @@ header {
     right: 4vw;
     bottom: 0;
     opacity: 75%;
-    color: floralwhite;
 }
 
 }
