@@ -48,6 +48,11 @@ header {
     color: floralwhite
 }
 
+#toggleDarkMode {
+    position: relative;
+    left: 4vw;
+}
+
 #info {
     position: absolute;
     z-index: 2;
