@@ -72,10 +72,6 @@ header {
 
 /* Begin responsive design here*/
 @media screen and (orientation: landscape) {
-    
-    body {
-        background-color: darkslategray;
-    }
 
     #bgFlower1 {
         position: fixed;
