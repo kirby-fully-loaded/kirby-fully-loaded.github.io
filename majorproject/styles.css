@@ -16,11 +16,6 @@
         margin-left: 10vw;
     }
 
-    p{
-        font-size: large;
-        font: Arial, sans-serif;
-    }
-
     /* Content code */
     #choiceContent{
         text-align: center;
@@ -29,22 +24,12 @@
         margin-left: 10vw;
     }
 
-    p{
-        font-size: large;
-        font: Arial, sans-serif;
-    }
-
     /* Conclusion code */
     #conclusionContent{
         text-align: center;
         margin-top: 20vh;
         margin-right: 10vw;
         margin-left: 10vw;
-    }
-
-    p{
-        font-size: large;
-        font: Arial, sans-serif;
     }
 
 /* Responsive Landscape starts here */
@@ -69,6 +54,11 @@
     }
     
     #titleHead{
-        font-family: Arial, sans-serif;
+        font-family: Birthstone, Arial, sans-serif;
 
+    }
+
+    p{
+        font-size: large;
+        font: Arial, sans-serif;
     }
