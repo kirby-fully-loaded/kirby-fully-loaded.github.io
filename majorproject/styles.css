@@ -1,7 +1,13 @@
 /* Portrait code goes here */
 
     /* -Titlecard code */
+    #titleHead{
+            text-align: center;
+            margin-top: 40vh;
+            margin-right: 10vw;
+            margin-left: 10vw;
 
+    }
     /* -Introduction code */
 
     /* -Content code */
@@ -19,3 +25,7 @@
     /* -Conclusion code */
 
 /* Global code goes here */
+    #titleHead{
+        font-family: Allura, Arial, sans-serif;
+        
+    }
