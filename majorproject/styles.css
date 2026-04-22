@@ -1,46 +1,56 @@
 /* Portrait code goes here */
 
-    /* Titlecard code */
-    #titleHead{
+    .imagePH{
+        background-color: lightgray;
+        width: 230px;
+        height: 230px;
         text-align: center;
-        margin-top: 25vh;
-        margin-right: 10vw;
-        margin-left: 10vw;
-
-    }
-    /* Introduction code */
-    #introText{
-        text-align: center;
-        margin-top: 20vh;
-        margin-right: 10vw;
-        margin-left: 10vw;
+        align-content: center;
+        margin-right: 17vw;
+        margin-left: 17vw;
     }
 
-    /* Content code */
-    .choiceContent{
-        text-align: center;
-        margin-top: 20vh;
-        margin-right: 10vw;
-        margin-left: 10vw;
-    }
+        /* Titlecard code */
+        #titleHead{
+            text-align: center;
+            margin-top: 25vh;
+            margin-right: 10vw;
+            margin-left: 10vw;
 
-    /* Conclusion code */
-    .conclusionContent{
-        text-align: center;
-        margin-top: 15vh;
-        margin-right: 10vw;
-        margin-left: 10vw;
-    }
+        }
+        /* Introduction code */
+        #introText{
+            text-align: center;
+            margin-top: 20vh;
+            margin-right: 10vw;
+            margin-left: 10vw;
+        }
+
+        /* Content code */
+        .choiceContent{
+            text-align: center;
+            margin-top: 20vh;
+            margin-right: 10vw;
+            margin-left: 10vw;
+        }
+
+        /* Conclusion code */
+        .conclusionContent{
+            text-align: center;
+            margin-top: 15vh;
+            margin-right: 10vw;
+            margin-left: 10vw;
+        }
 
 /* Responsive Landscape starts here */
 
-    /* Titlecard code */
+        /* Titlecard code */
 
-    /* Introduction code */
+        /* Introduction code */
 
-    /* Content code */
+        /* Content code */
 
-    /* Conclusion code */
+        /* Conclusion code */
 
 /* Global code goes here */
 
@@ -63,12 +73,3 @@
         font-family: Berkshire Swash, Arial, sans-serif;
     }
 
-    .imagePH{
-        background-color: lightgray;
-        width: 230px;
-        height: 230px;
-        text-align: center;
-        align-content: center;
-        margin-right: 17vw;
-        margin-left: 17vw;
-    }
