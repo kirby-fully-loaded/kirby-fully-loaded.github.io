@@ -25,10 +25,7 @@
     /* -Conclusion code */
 
 /* Global code goes here */
-    #titleHead{
-        font-family: Allura, Arial, sans-serif;
 
-    }
     
     body{
         background-color: #F4F3EE;
@@ -36,4 +33,9 @@
         color: #4C2719;
         /* color name on Coolors is "Espresso" */
         
+    }
+    
+    #titleHead{
+        font-family: Allura, Arial, sans-serif;
+
     }
