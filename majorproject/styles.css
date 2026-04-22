@@ -32,12 +32,6 @@
         margin-left: 10vw;
     }
 
-    .imagePH{
-        background-color: lightgray;
-        width: 100px;
-        height: 100px;
-    }
-
 /* Responsive Landscape starts here */
 
     /* Titlecard code */
@@ -67,4 +61,14 @@
     p{
         font-size: large;
         font-family: Berkshire Swash, Arial, sans-serif;
+    }
+
+    .imagePH{
+        background-color: lightgray;
+        width: 230px;
+        height: 230px;
+        text-align: center;
+        align-content: center;
+        margin-right: 17vw;
+        margin-left: 17vw;
     }
