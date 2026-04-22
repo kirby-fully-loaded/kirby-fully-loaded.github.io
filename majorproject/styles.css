@@ -32,6 +32,12 @@
         margin-left: 10vw;
     }
 
+    .imagePH{
+        background-color: lightgray;
+        width: 100px;
+        height: 100px;
+    }
+
 /* Responsive Landscape starts here */
 
     /* Titlecard code */
