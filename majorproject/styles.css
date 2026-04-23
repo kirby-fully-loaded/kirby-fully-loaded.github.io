@@ -215,8 +215,8 @@ p {
         padding: 14px 16px;
         text-decoration: none;
         font-size: 17px;
-        top: 19vh;
-        left: 42vw;
+        top: 55vh;
+        left: 17vw;
     }
 
     .button1 {
@@ -230,8 +230,8 @@ p {
         padding: 14px 16px;
         text-decoration: none;
         font-size: 17px;
-        bottom: 15vh;
-        left: 15vw;
+        bottom: 45vh;
+        left: 74vw;
     }
 
     .button2 {
@@ -246,7 +246,7 @@ p {
         text-decoration: none;
         font-size: 17px;
         right: 15vw;
-        bottom: 15vh;
+        bottom: 25vh;
     }
 
     /* Titlecard code */
