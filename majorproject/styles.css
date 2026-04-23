@@ -46,6 +46,8 @@
 }
 
 .button1 {
+    position: absolute;
+    z-index: 3;
     background-color: #4C2719;
     /* color name on Coolors is "Espresso" */
     color: #F4F3EE;
@@ -54,9 +56,13 @@
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
+    bottom:15vh;
+    left: 15vw;
 }
 
 .button2 {
+    position: absolute;
+    z-index: 3;
     background-color: #4C2719;
     /* color name on Coolors is "Espresso" */
     color: #F4F3EE;
@@ -65,6 +71,8 @@
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
+    right: 15vw;
+    bottom: 15vh;
 }
 
 .contentBox {
