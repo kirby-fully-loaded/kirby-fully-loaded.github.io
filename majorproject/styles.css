@@ -185,24 +185,58 @@
 
     /* Responsive shape code goes here */
 
+        .imagePH{
+		    position: absolute;
+            background-color: lightgray;
+		    z-index: 3;
+            width: 45vh;
+            height: 45vh;
+            margin: auto;
+            text-align: center;
+            align-content: center;
+		    top: 27vh;
+		    right: 20vw;
+		
+	    }
+
+        .contentBox{
+            position: absolute;
+            z-index: 2;
+            width: 65vw;
+            height: 80vh;
+		    top: 5vw;
+		    left: 15vw;
+		    border-style: solid;
+            border-width: 3px;
+            border-color: #4C2719;
+		    /* color name on Coolors is "Espresso" */
+		    background-color: #F4F3EE;
+		    /* Color name on Coolors is "Parchment" */
+		
+	    }
+	
+
         .backShaft{
             position: absolute;
 		    background-color: #C2A878;
 		    /* Color name on Coolors is "Soft Fawn" */
 		    z-index: 1;
-		    width: 10vw;
-		    height: 16vw;
-		    top: 7vh;
-		    left: 45vw;
+		    width: 16vw;
+		    height: 4vw;
+		    top: 48vh;
+		    left: 10vw;
         }
 
 	    .backArrow{
-            width: 0;
+			Position: absolute;
+            width: 5vw;
 	        height: 0;
-	        border-top: 25px solid transparent;
-	        border-right: 50px solid #C2A878;
+	        border-top: 40px solid transparent;
+	        border-right: 40px solid #C2A878;
             /* Color name on Coolors is "Soft Fawn" */
-	        border-bottom: 25px solid transparent;
+	        border-bottom: 40px solid transparent;
+			top: 46vh;
+			left: 0vw;
         }
 
 	    .forwardShaftPrimary{
@@ -210,10 +244,10 @@
 		    background-color: #C2A878;
 		    /* Color name on Coolors is "Soft Fawn" */
 		    z-index: 1;
-		    width: 10vw;
-		    height: 26vw;
-		    bottom: 20vh;
-		    left: 45vw;
+		    width: 16vw;
+		    height: 4vw;
+		    top: 48vh;
+		    right: 10vw;
         }
 
 	    .forwardJoint{
