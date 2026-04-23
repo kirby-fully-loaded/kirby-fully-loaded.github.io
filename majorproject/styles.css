@@ -185,6 +185,20 @@
             margin-left: 10vw;
 
         }
+
+        .titleImage{
+            position: absolute;
+            background-color: lightgray;
+		    z-index: 3;
+            width: 45vh;
+            height: 45vh;
+            margin: auto;
+            text-align: center;
+            align-content: center;
+		    top: 27vh;
+		    right: 25vw;
+        }
+
         /* Introduction code */
         #introText{
             position: absolute;
@@ -194,6 +208,19 @@
 			top: 20vh;
 			left: 5vw;
 		
+        }
+
+        .introImage{
+            position: absolute;
+            background-color: lightgray;
+		    z-index: 3;
+            width: 45vh;
+            height: 45vh;
+            margin: auto;
+            text-align: center;
+            align-content: center;
+		    top: 27vh;
+		    right: 25vw;
         }
 
         /* Content code */
@@ -207,22 +234,8 @@
 		
         }
 
-        /* Conclusion code */
-        .conclusionContent{
-            text-align: center;
-            z-index: 3;
-            margin-top: 15vh;
-            margin-right: 10vw;
-            margin-left: 10vw;
-        }
-
-/* Responsive Landscape starts here */
-@media screen and (orientation: landscape) {
-
-    /* Responsive shape code goes here */
-
-        .imagePH{
-		    position: absolute;
+        .contentImage{
+            position: absolute;
             background-color: lightgray;
 		    z-index: 3;
             width: 45vh;
@@ -232,8 +245,35 @@
             align-content: center;
 		    top: 27vh;
 		    right: 25vw;
-		
-	    }
+        }
+
+        /* Conclusion code */
+        .conclusionContent{
+            text-align: center;
+            z-index: 3;
+            margin-top: 15vh;
+            margin-right: 10vw;
+            margin-left: 10vw;
+        }
+
+        .ednImage1{
+            position: absolute;
+            background-color: lightgray;
+		    z-index: 3;
+            width: 45vh;
+            height: 45vh;
+            margin: auto;
+            text-align: center;
+            align-content: center;
+		    top: 27vh;
+		    right: 25vw;
+        }
+
+/* Responsive Landscape starts here */
+@media screen and (orientation: landscape) {
+
+    /* Responsive shape code goes here */
+
 
         .contentBox{
             position: absolute;
@@ -250,7 +290,6 @@
 		    /* Color name on Coolors is "Parchment" */
 		
 	    }
-	
 
         .backShaft{
             position: absolute;
@@ -363,6 +402,19 @@
 
         }
 
+        .titleImage{
+            position: absolute;
+            background-color: lightgray;
+		    z-index: 3;
+            width: 45vh;
+            height: 45vh;
+            margin: auto;
+            text-align: center;
+            align-content: center;
+		    top: 27vh;
+		    right: 25vw;
+        }
+
         /* Introduction code */
 
         #introText{
@@ -372,6 +424,19 @@
 			top: 20vh;
 			left: 5vw;
 		
+        }
+
+        .introImage{
+            position: absolute;
+            background-color: lightgray;
+		    z-index: 3;
+            width: 45vh;
+            height: 45vh;
+            margin: auto;
+            text-align: center;
+            align-content: center;
+		    top: 27vh;
+		    right: 25vw;
         }
 
         /* Content code */
@@ -387,6 +452,19 @@
 		
         }
 
+        .contentImage{
+            position: absolute;
+            background-color: lightgray;
+		    z-index: 3;
+            width: 45vh;
+            height: 45vh;
+            margin: auto;
+            text-align: center;
+            align-content: center;
+		    top: 27vh;
+		    right: 25vw;
+        }
+
         /* Conclusion code */
 
         .conclusionContent{
@@ -394,6 +472,19 @@
             margin-top: 15vh;
             margin-right: 10vw;
             margin-left: 10vw;
+        }
+
+        .endImage1{
+            position: absolute;
+            background-color: lightgray;
+		    z-index: 3;
+            width: 45vh;
+            height: 45vh;
+            margin: auto;
+            text-align: center;
+            align-content: center;
+		    top: 27vh;
+		    right: 25vw;
         }
 
 }
