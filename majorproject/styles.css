@@ -37,9 +37,10 @@
     .contentBox{
         position: absolute;
         z-index: 2;
-        width: 95vw;
-        height: 65vw;
-		top: 45vw;
+        width: 80vw;
+        height: 70vh;
+		top: 15vh;
+		left: 10vw;
 		border-style: solid;
         border-width: 3px;
         border-color: #4C2719;
@@ -82,9 +83,10 @@
             position: absolute;
             z-index: 3;
             text-align: center;
-			width: 40vw;
-			top: 35vh;
-			left: 5vw;
+			margin: auto;
+			width: 65vw;
+			top: 20vh;
+			left: 19vw;
 		
         }
 
@@ -92,13 +94,13 @@
             position: absolute;
             background-color: lightgray;
 		    z-index: 3;
-            width: 40vw;
-            height: 40vw;
+            width: 45vw;
+            height: 45vw;
             margin: auto;
             text-align: center;
             align-content: center;
 		    top: 40vh;
-		    right: 30vw;
+		    right: 25vw;
 		    
         }
 
@@ -107,9 +109,9 @@
             position: absolute;
             z-index: 3;
             text-align: center;
-			width: 90vw;
+			width: 70vw;
 			top: 20vh;
-			left: 5vw;
+			left: 15vw;
 		
         }
 
@@ -117,13 +119,13 @@
             position: absolute;
             background-color: lightgray;
 		    z-index: 3;
-            width: 40vw;
-            height: 40vw;
+            width: 50vw;
+            height: 50vw;
             margin: auto;
             text-align: center;
             align-content: center;
-		    top: 40vh;
-		    right: 30vw;
+		    top: 50vh;
+		    right: 25vw;
         }
 
         /* Conclusion code */
@@ -131,22 +133,22 @@
             position: absolute;
             text-align: center;
             z-index: 3;
-            margin-top: 15vh;
-            margin-right: 10vw;
-            margin-left: 10vw;
+			width: 70vw;
+            top: 20vh;
+			left: 15vw;
         }
 
         .endImage1{
             position: absolute;
             background-color: lightgray;
 		    z-index: 3;
-            width: 45vh;
-            height: 45vh;
+            width: 50vw;
+            height: 50vw;
             margin: auto;
             text-align: center;
             align-content: center;
-		    top: 27vh;
-		    right: 25vw;
+		    bottom: 20vh;
+			left: 24vw;
         }
 
 /* Responsive Landscape starts here */
