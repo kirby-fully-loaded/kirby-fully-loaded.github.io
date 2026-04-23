@@ -60,7 +60,7 @@
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
-    bottom:15vh;
+    bottom: 15vh;
     left: 15vw;
 }
 
@@ -204,6 +204,51 @@ p {
 
     /* Responsive shape code goes here */
 
+    .backButton {
+        position: absolute;
+        z-index: 3;
+        background-color: #4C2719;
+        /* color name on Coolors is "Espresso" */
+        color: #F4F3EE;
+        /* Color name on Coolors is "Parchment" */
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        top: 19vh;
+        left: 42vw;
+    }
+
+    .button1 {
+        position: absolute;
+        z-index: 3;
+        background-color: #4C2719;
+        /* color name on Coolors is "Espresso" */
+        color: #F4F3EE;
+        /* Color name on Coolors is "Parchment" */
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        bottom: 15vh;
+        left: 15vw;
+    }
+
+    .button2 {
+        position: absolute;
+        z-index: 3;
+        background-color: #4C2719;
+        /* color name on Coolors is "Espresso" */
+        color: #F4F3EE;
+        /* Color name on Coolors is "Parchment" */
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        right: 15vw;
+        bottom: 15vh;
+    }
+
     /* Titlecard code */
 
     #titleHead {
@@ -291,12 +336,12 @@ p {
         position: absolute;
         background-color: lightgray;
         z-index: 3;
-        width: 50vh;
-        height: 50vh;
+        width: 35vh;
+        height: 35vh;
         margin: auto;
         text-align: center;
         align-content: center;
-        top: 35vh;
+        top: 30vh;
         right: 25vw;
     }
 
