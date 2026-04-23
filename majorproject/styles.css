@@ -195,7 +195,7 @@
             text-align: center;
             align-content: center;
 		    top: 27vh;
-		    right: 20vw;
+		    right: 25vw;
 		
 	    }
 
@@ -265,14 +265,13 @@
         .forwardJointInner{
             position: absolute;
 		    z-index: 2;
-		    height: 25vw;
-		    width: 25vw;
+		    height: 5vw;
+		    width: 5vw;
 		    background-color: #F4F3EE;
 		    /* Color name on Coolors is "Parchment" */
 		    border-radius: 50%;
-		    margin: auto;
-		    bottom: 7vh;
-		    left: 37vw;
+		    top: 8vw;
+			left: 87vw;
         }
 
 	    .forwardArrowA{
@@ -282,7 +281,9 @@
 	        border-left: 50px solid #C2A878;
             /* Color name on Coolors is "Soft Fawn" */
 	        border-bottom: 25px solid transparent;
-        }
+	        top: 42vh;
+			left: 95vw;
+		}
 
 	    .forwardShaftA{
             position: absolute;
@@ -301,17 +302,19 @@
 	        border-left: 50px solid #C2A878;
             /* Color name on Coolors is "Soft Fawn" */
 	        border-bottom: 25px solid transparent;
-        }
+	        top: 54vh;
+			left: 95vw;
+		}
 
 	    .forwardShaftB{
             position: absolute;
 		    z-index: 2;
 		    background-color: #F4F3EE;
 		    /* Color name on Coolors is "Parchment" */
-		    width: 25vw;
-		    height: 17vw;
-		    bottom: 1vh;
-		    left: 37vw;
+		    width: 8vw;
+		    height: 5vw;
+		    top: 47vh;
+		    left: 89vw;
         }
 
         /* Titlecard code */
@@ -341,9 +344,10 @@
             position: absolute;
             z-index: 3;
             text-align: center;
-			width: 40vw;
-			top: 20vh;
-			left: 5vw;
+			font-size: x-large;
+			width: 25vw;
+			top: 30vh;
+			left: 18vw;
 		
         }
 
