@@ -3,7 +3,7 @@
     .imagePH{
 		position: absolute;
         background-color: lightgray;
-		z-index: 2;
+		z-index: 3;
         width: 45vw;
         height: 45vw;
         margin: auto;
@@ -12,6 +12,15 @@
 		top: 27vh;
 		right: 5vw;
 		
+    }
+
+    .contentBox{
+        z-index: 2;
+        width: 80vw;
+        height: 80vw;
+        border-width: 3px;
+        border-color: #4C2719;
+        /* color name on Coolors is "Espresso" */
     }
 
     /* Shape code goes here */
