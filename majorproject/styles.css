@@ -1,14 +1,14 @@
 /* Portrait code goes here */
 
-        /* Top navigation color */
-        .topnav {
+    /* Top navigation color */
+    .topnav {
         background-color: #4C2719;
         /* color name on Coolors is "Espresso" */
         overflow: hidden;
     }
 
-        /* Navigation bar styling */
-        .topnav a {
+    /* Navigation bar styling */
+    .topnav a {
         float: left;
         color: #F4F3EE;
         /* Color name on Coolors is "Parchment" */
@@ -18,16 +18,16 @@
         font-size: 17px;
     }
 
-        /* Link on hover */
-        .topnav a:hover {
+    /* Link on hover */
+    .topnav a:hover {
         background-color: #F4F3EE;
         /* Color name on Coolors is "Parchment" */
         color: #4C2719;
         /* color name on Coolors is "Espresso" */
     }
 
-        /* Active/current link */
-        .topnav a.active {
+    /* Active/current link */
+    .topnav a.active {
         background-color: #C2A878;
         /* Color name on Coolors is "Soft Fawn" */
         color: #4C2719;
@@ -188,6 +188,7 @@
         /* Introduction code */
         #introText{
             position: absolute;
+            z-index: 3;
             text-align: center;
 			width: 40vw;
 			top: 20vh;
@@ -209,6 +210,7 @@
         /* Conclusion code */
         .conclusionContent{
             text-align: center;
+            z-index: 3;
             margin-top: 15vh;
             margin-right: 10vw;
             margin-left: 10vw;
