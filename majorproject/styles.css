@@ -29,6 +29,11 @@
 		
     }
 
+    p{
+        font-size: 12;
+        font-family: Berkshire Swash, Arial, sans-serif;
+    }
+
     /* Shape code goes here */
 
     .backShaft{
@@ -311,10 +316,5 @@
     #titleHead{
         font-family: Birthstone, Arial, sans-serif;
 
-    }
-
-    p{
-        font-size: 12;
-        font-family: Berkshire Swash, Arial, sans-serif;
     }
 
