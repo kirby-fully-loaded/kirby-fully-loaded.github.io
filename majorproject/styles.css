@@ -18,11 +18,30 @@
     }
 
 	.forwardShaftPrimary{
-
+        position: relative;
+		background-color: #C2A878;
+		/* Color name on Coolors is "Soft Fawn" */
+		z-index: 1;
+		width: 50px;
+		height: 100px;
+		margin: auto;
+		bottom: 5vh;
+		
     }
 
 	.forwardJoint{
+        position: relative;
+		height: 70px;
+		width: 150px;
+		background-color: #C2A878;
+        /* Color name on Coolors is "Soft Fawn" */
+		border-radius: 50%;
+		margin: auto;
+		bottom: 12vh;
+    }
 
+    .forwardJointInner{
+        
     }
 
 	.forwardArrowA{
@@ -30,7 +49,13 @@
     }
 
 	.forwardShaftA{
-
+        position: relative;
+		background-color: #C2A878;
+		/* Color name on Coolors is "Soft Fawn" */
+		width: 150px;
+		height: 100px;
+		bottom: 20vh;
+		left:28vw;
     }
 
 	.forwardArrowB{
@@ -38,7 +63,15 @@
     }
 
 	.forwardShaftB{
-
+        position: relative;
+		z-index: 2;
+		background-color: #F4F3EE;
+		/* Color name on Coolors is "Parchment" */
+		width: 50px;
+		height: 100px;
+		margin: auto;
+		bottom: 37vh;
+		
     }
 
         /* Titlecard code */
