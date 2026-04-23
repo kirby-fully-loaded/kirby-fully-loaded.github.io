@@ -197,17 +197,18 @@
 		
         }
 
-        .introImage{
+        .titleImage{
             position: absolute;
             background-color: lightgray;
 		    z-index: 3;
-            width: 45vw;
-            height: 45vw;
+            width: 47vw;
+            height: 47vw;
             margin: auto;
             text-align: center;
             align-content: center;
-		    top: 34vh;
-		    right: 5vw;
+		    top: 44vh;
+			right: 26vw;
+		    
         }
 
         /* Content code */
