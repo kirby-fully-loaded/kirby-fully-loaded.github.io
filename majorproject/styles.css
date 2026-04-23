@@ -23,18 +23,36 @@
 		border-style: solid;
         border-width: 3px;
         border-color: #4C2719;
-        /* color name on Coolors is "Espresso" */
+		/* color name on Coolors is "Espresso" */
+		background-color: #F4F3EE;
+		/* Color name on Coolors is "Parchment" */
+		
     }
 
     /* Shape code goes here */
 
     .backShaft{
-        
+        position: absolute;
+		background-color: #C2A878;
+		/* Color name on Coolors is "Soft Fawn" */
+		z-index: 1;
+		width: 10vw;
+		height: 16vw;
+		top: 7vh;
+		left: 45vw;
     }
 
 	.backArrow{
-
-    }
+		position: absolute;
+		width: 0;
+		height: 0;
+		top: 1vw;
+		left: 43vw;
+		border-left: 25px solid transparent;
+		border-right: 25px solid transparent;
+		border-bottom: 50px solid #C2A878;
+	    /* Color name on Coolors is "Soft Fawn" */
+	}
 
 	.forwardShaftPrimary{
         position: absolute;
@@ -42,7 +60,7 @@
 		/* Color name on Coolors is "Soft Fawn" */
 		z-index: 1;
 		width: 10vw;
-		height: 25vw;
+		height: 26vw;
 		bottom: 20vh;
 		left: 45vw;
 		
@@ -141,6 +159,7 @@
         /* Content code */
         .choiceContent{
             position: absolute;
+            z-index: 3;
             text-align: center;
 			width: 40vw;
 			top: 20vh;
