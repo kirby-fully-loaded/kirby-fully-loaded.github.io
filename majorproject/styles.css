@@ -247,7 +247,7 @@
 		    width: 16vw;
 		    height: 4vw;
 		    top: 48vh;
-		    right: 10vw;
+		    right: 5vw;
         }
 
 	    .forwardJoint{
@@ -258,8 +258,8 @@
 		    background-color: #C2A878;
             /* Color name on Coolors is "Soft Fawn" */
 		    border-radius: 50%;
-		    bottom: 10vh;
-		    left: 27vw;
+            top: 48vh;
+		    right: 10vw;
         }
 
 	    .forwardArrowA{
