@@ -176,50 +176,130 @@
         }
 
 /* Responsive Landscape starts here */
-    
+@media screen and (orientation: landscape) {
+
     /* Responsive shape code goes here */
-    .backShaft{
 
-    }
+        .backShaft{
+            position: absolute;
+		    background-color: #C2A878;
+		    /* Color name on Coolors is "Soft Fawn" */
+		    z-index: 1;
+		    width: 10vw;
+		    height: 16vw;
+		    top: 7vh;
+		    left: 45vw;
+        }
 
-	.backArrow{
+	    .backArrow{
+            width: 0;
+	        height: 0;
+	        border-top: 25px solid transparent;
+	        border-right: 50px solid #555;
+	        border-bottom: 25px solid transparent;
+        }
 
-    }
+	    .forwardShaftPrimary{
+            position: absolute;
+		    background-color: #C2A878;
+		    /* Color name on Coolors is "Soft Fawn" */
+		    z-index: 1;
+		    width: 10vw;
+		    height: 26vw;
+		    bottom: 20vh;
+		    left: 45vw;
+        }
 
-	.forwardShaftPrimary{
+	    .forwardJoint{
+            position: absolute;
+		    z-index: 1;
+		    height: 25vw;
+		    width: 45vw;
+		    background-color: #C2A878;
+            /* Color name on Coolors is "Soft Fawn" */
+		    border-radius: 50%;
+		    bottom: 10vh;
+		    left: 27vw;
+        }
 
-    }
+	    .forwardArrowA{
+            width: 0;
+	        height: 0;
+	        border-top: 25px solid transparent;
+	        border-left: 50px solid #555;
+	        border-bottom: 25px solid transparent;
+        }
 
-	.forwardJoint{
+	    .forwardShaftA{
+            position: absolute;
+		    background-color: #C2A878;
+		    /* Color name on Coolors is "Soft Fawn" */
+		    width: 45vw;
+		    height: 16vw;
+		    bottom: 8vh;
+		    left: 27vw;
+        }
 
-    }
+	    .forwardArrowB{
 
-	.forwardArrowA{
+        }
 
-    }
+	    .forwardShaftB{
+            position: absolute;
+		    z-index: 2;
+		    background-color: #F4F3EE;
+		    /* Color name on Coolors is "Parchment" */
+		    width: 25vw;
+		    height: 17vw;
+		    bottom: 1vh;
+		    left: 37vw;
+        }
 
-	.forwardShaftA{
-
-    }
-
-	.forwardArrowB{
-
-    }
-
-	.forwardShaftB{
-        
-    }
         /* Titlecard code */
+
+        #titleHead{
+            text-align: center;
+            margin-top: 25vh;
+            margin-right: 10vw;
+            margin-left: 10vw;
+
+        }
 
         /* Introduction code */
 
+        #introText{
+            position: absolute;
+            text-align: center;
+			width: 40vw;
+			top: 20vh;
+			left: 5vw;
+		
+        }
+
         /* Content code */
+
+        .choiceContent{
+            position: absolute;
+            z-index: 3;
+            text-align: center;
+			width: 40vw;
+			top: 20vh;
+			left: 5vw;
+		
+        }
 
         /* Conclusion code */
 
+        .conclusionContent{
+            text-align: center;
+            margin-top: 15vh;
+            margin-right: 10vw;
+            margin-left: 10vw;
+        }
+
+}
 /* Global code goes here */
 
-    
     body{
         background-color: #F4F3EE;
         /* color name on Coolors is "Parchment" */
