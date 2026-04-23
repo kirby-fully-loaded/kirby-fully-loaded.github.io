@@ -1,269 +1,305 @@
 /* Portrait code goes here */
 
-    /* Top navigation color */
-    .topnav {
-        background-color: #4C2719;
-        /* color name on Coolors is "Espresso" */
-        overflow: hidden;
-    }
+/* Top navigation color */
+.topnav {
+    background-color: #4C2719;
+    /* color name on Coolors is "Espresso" */
+    overflow: hidden;
+}
 
-    /* Navigation bar styling */
-    .topnav a {
-        float: left;
-        color: #F4F3EE;
-        /* Color name on Coolors is "Parchment" */
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-        font-size: 17px;
-    }
+/* Navigation bar styling */
+.topnav a {
+    float: left;
+    color: #F4F3EE;
+    /* Color name on Coolors is "Parchment" */
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
 
-    /* Link on hover */
-    .topnav a:hover {
-        background-color: #F4F3EE;
-        /* Color name on Coolors is "Parchment" */
-        color: #4C2719;
-        /* color name on Coolors is "Espresso" */
-    }
+/* Link on hover */
+.topnav a:hover {
+    background-color: #F4F3EE;
+    /* Color name on Coolors is "Parchment" */
+    color: #4C2719;
+    /* color name on Coolors is "Espresso" */
+}
 
-    /* Active/current link */
-    .topnav a.active {
-        background-color: #C2A878;
-        /* Color name on Coolors is "Soft Fawn" */
-        color: #4C2719;
-        /* color name on Coolors is "Espresso" */
-    }
+/* Active/current link */
+.topnav a.active {
+    background-color: #C2A878;
+    /* Color name on Coolors is "Soft Fawn" */
+    color: #4C2719;
+    /* color name on Coolors is "Espresso" */
+}
 
-    .contentBox{
-        position: absolute;
-        z-index: 2;
-        width: 80vw;
-        height: 70vh;
-		top: 15vh;
-		left: 10vw;
-		border-style: solid;
-        border-width: 3px;
-        border-color: #4C2719;
-		/* color name on Coolors is "Espresso" */
-		background-color: #F4F3EE;
-		/* Color name on Coolors is "Parchment" */
-		
-    }
+.backButton{
+    background-color: #4C2719;
+    /* color name on Coolors is "Espresso" */
+    color: #F4F3EE;
+    /* Color name on Coolors is "Parchment" */
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
 
-    p{
-        font-size: 12;
-        font-family: Berkshire Swash, Arial, sans-serif;
-    }
+.button1{
+    background-color: #4C2719;
+    /* color name on Coolors is "Espresso" */
+    color: #F4F3EE;
+    /* Color name on Coolors is "Parchment" */
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
 
-        /* Titlecard code */
-        #titleHead{
-            text-align: center;
-            margin-top: 25vh;
-            margin-right: 10vw;
-            margin-left: 10vw;
+.button2{
+    background-color: #4C2719;
+    /* color name on Coolors is "Espresso" */
+    color: #F4F3EE;
+    /* Color name on Coolors is "Parchment" */
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
 
-        }
+.contentBox {
+    position: absolute;
+    z-index: 2;
+    width: 80vw;
+    height: 70vh;
+    top: 15vh;
+    left: 10vw;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #4C2719;
+    /* color name on Coolors is "Espresso" */
+    background-color: #F4F3EE;
+    /* Color name on Coolors is "Parchment" */
 
-        .titleImage{
-            position: absolute;
-            background-color: lightgray;
-		    z-index: 3;
-            width: 55vw;
-            height: 55vw;
-            margin: auto;
-            text-align: center;
-            align-content: center;
-		    top: 34vh;
-			right: 23vw;
-		    
-        }
+}
 
-        /* Introduction code */
-        #introText{
-            position: absolute;
-            z-index: 3;
-            text-align: center;
-			margin: auto;
-			width: 65vw;
-			top: 20vh;
-			left: 19vw;
-		
-        }
+p {
+    font-size: 12;
+    font-family: Berkshire Swash, Arial, sans-serif;
+}
 
-        .introImage{
-            position: absolute;
-            background-color: lightgray;
-		    z-index: 3;
-            width: 45vw;
-            height: 45vw;
-            margin: auto;
-            text-align: center;
-            align-content: center;
-		    top: 40vh;
-		    right: 25vw;
-		    
-        }
+/* Titlecard code */
+#titleHead {
+    text-align: center;
+    margin-top: 25vh;
+    margin-right: 10vw;
+    margin-left: 10vw;
 
-        /* Content code */
-        .choiceContent{
-            position: absolute;
-            z-index: 3;
-            text-align: center;
-			width: 70vw;
-			top: 20vh;
-			left: 15vw;
-		
-        }
+}
 
-        .contentImage{
-            position: absolute;
-            background-color: lightgray;
-		    z-index: 3;
-            width: 50vw;
-            height: 50vw;
-            margin: auto;
-            text-align: center;
-            align-content: center;
-		    top: 50vh;
-		    right: 25vw;
-        }
+.titleImage {
+    position: absolute;
+    background-color: lightgray;
+    z-index: 3;
+    width: 55vw;
+    height: 55vw;
+    margin: auto;
+    text-align: center;
+    align-content: center;
+    top: 34vh;
+    right: 23vw;
 
-        /* Conclusion code */
-        .conclusionContent{
-            position: absolute;
-            text-align: center;
-            z-index: 3;
-			width: 70vw;
-            top: 20vh;
-			left: 15vw;
-        }
+}
 
-        .endImage1{
-            position: absolute;
-            background-color: lightgray;
-		    z-index: 3;
-            width: 50vw;
-            height: 50vw;
-            margin: auto;
-            text-align: center;
-            align-content: center;
-		    bottom: 20vh;
-			left: 24vw;
-        }
+/* Introduction code */
+#introText {
+    position: absolute;
+    z-index: 3;
+    text-align: center;
+    margin: auto;
+    width: 65vw;
+    top: 20vh;
+    left: 19vw;
+
+}
+
+.introImage {
+    position: absolute;
+    background-color: lightgray;
+    z-index: 3;
+    width: 45vw;
+    height: 45vw;
+    margin: auto;
+    text-align: center;
+    align-content: center;
+    top: 40vh;
+    right: 25vw;
+
+}
+
+/* Content code */
+.choiceContent {
+    position: absolute;
+    z-index: 3;
+    text-align: center;
+    width: 70vw;
+    top: 20vh;
+    left: 15vw;
+
+}
+
+.contentImage {
+    position: absolute;
+    background-color: lightgray;
+    z-index: 3;
+    width: 50vw;
+    height: 50vw;
+    margin: auto;
+    text-align: center;
+    align-content: center;
+    top: 50vh;
+    right: 25vw;
+
+}
+
+/* Conclusion code */
+.conclusionContent {
+    position: absolute;
+    text-align: center;
+    z-index: 3;
+    width: 70vw;
+    top: 20vh;
+    left: 15vw;
+
+}
+
+.endImage1 {
+    position: absolute;
+    background-color: lightgray;
+    z-index: 3;
+    width: 50vw;
+    height: 50vw;
+    margin: auto;
+    text-align: center;
+    align-content: center;
+    bottom: 20vh;
+    left: 24vw;
+}
 
 /* Responsive Landscape starts here */
 @media screen and (orientation: landscape) {
 
     /* Responsive shape code goes here */
 
-        /* Titlecard code */
+    /* Titlecard code */
 
-        #titleHead{
-			position: absolute;
-			z-index: 3;
-            text-align: center;
-            width: 50vw;
-			top: 2vh;
-			left: 16vw;
+    #titleHead {
+        position: absolute;
+        z-index: 3;
+        text-align: center;
+        width: 50vw;
+        top: 2vh;
+        left: 16vw;
 
-        }
+    }
 
-        .titleImage{
-            position: absolute;
-            background-color: lightgray;
-		    z-index: 3;
-            width: 45vh;
-            height: 45vh;
-            margin: auto;
-            text-align: center;
-            align-content: center;
-		    top: 35vh;
-		    right: 35vw;;
-        }
+    .titleImage {
+        position: absolute;
+        background-color: lightgray;
+        z-index: 3;
+        width: 45vh;
+        height: 45vh;
+        margin: auto;
+        text-align: center;
+        align-content: center;
+        top: 35vh;
+        right: 35vw;
+        ;
+    }
 
-        /* Introduction code */
+    /* Introduction code */
 
-        #introText{
-			font-size: large;
-            position: absolute;
-            text-align: center;
-			width: 35vw;
-			top: 20vh;
-			left: 30vw;
-		
-        }
+    #introText {
+        font-size: large;
+        position: absolute;
+        text-align: center;
+        width: 35vw;
+        top: 20vh;
+        left: 30vw;
 
-        .introImage{
-            position: absolute;
-            background-color: lightgray;
-		    z-index: 3;
-            width: 45vh;
-            height: 45vh;
-            text-align: center;
-            align-content: center;
-		    top: 35vh;
-		    left: 18vw;
-        }
+    }
 
-        /* Content code */
+    .introImage {
+        position: absolute;
+        background-color: lightgray;
+        z-index: 3;
+        width: 45vh;
+        height: 45vh;
+        text-align: center;
+        align-content: center;
+        top: 35vh;
+        left: 18vw;
+    }
 
-        .choiceContent{
-            position: absolute;
-            z-index: 3;
-            text-align: center;
-			font-size: large;
-			width: 35vw;
-			top: 20vh;
-			left: 24vw;
-		
-        }
+    /* Content code */
 
-        .contentImage{
-            position: absolute;
-            background-color: lightgray;
-		    z-index: 3;
-            width: 40vh;
-            height: 40vh;
-            margin: auto;
-            text-align: center;
-            align-content: center;
-		    top: 43vh;
-		    left: 8vw;
-        }
+    .choiceContent {
+        position: absolute;
+        z-index: 3;
+        text-align: center;
+        font-size: large;
+        width: 35vw;
+        top: 20vh;
+        left: 24vw;
 
-        /* Conclusion code */
+    }
 
-        .conclusionContent{
-            text-align: center;
-			
-        }
+    .contentImage {
+        position: absolute;
+        background-color: lightgray;
+        z-index: 3;
+        width: 40vh;
+        height: 40vh;
+        margin: auto;
+        text-align: center;
+        align-content: center;
+        top: 43vh;
+        left: 8vw;
+    }
 
-        .endImage1{
-            position: absolute;
-            background-color: lightgray;
-		    z-index: 3;
-            width: 50vh;
-            height: 50vh;
-            margin: auto;
-            text-align: center;
-            align-content: center;
-		    top: 35vh;
-		    right: 25vw;
-        }
+    /* Conclusion code */
+
+    .conclusionContent {
+        text-align: center;
+
+    }
+
+    .endImage1 {
+        position: absolute;
+        background-color: lightgray;
+        z-index: 3;
+        width: 50vh;
+        height: 50vh;
+        margin: auto;
+        text-align: center;
+        align-content: center;
+        top: 35vh;
+        right: 25vw;
+    }
 
 }
+
 /* Global code goes here */
 
-    body{
-        background-color: #F4F3EE;
-        /* color name on Coolors is "Parchment" */
-        color: #4C2719;
-        /* color name on Coolors is "Espresso" */
-        
-    }
-    
-    #titleHead{
-        font-family: Birthstone, Arial, sans-serif;
+body {
+    background-color: #F4F3EE;
+    /* color name on Coolors is "Parchment" */
+    color: #4C2719;
+    /* color name on Coolors is "Espresso" */
 
-    }
+}
 
+#titleHead {
+    font-family: Birthstone, Arial, sans-serif;
+
+}
