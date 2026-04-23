@@ -153,9 +153,10 @@ p {
 .choiceContent {
     position: absolute;
     z-index: 3;
+    font-size: 14px;
     text-align: center;
     width: 70vw;
-    top: 20vh;
+    top: 27vh;
     left: 15vw;
 
 }
@@ -169,7 +170,7 @@ p {
     margin: auto;
     text-align: center;
     align-content: center;
-    top: 50vh;
+    top: 48vh;
     right: 25vw;
 
 }
