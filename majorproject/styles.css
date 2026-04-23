@@ -1,5 +1,39 @@
 /* Portrait code goes here */
 
+        /* Top navigation color */
+        .topnav {
+        background-color: #4C2719;
+        /* color name on Coolors is "Espresso" */
+        overflow: hidden;
+    }
+
+        /* Navigation bar styling */
+        .topnav a {
+        float: left;
+        color: #F4F3EE;
+        /* Color name on Coolors is "Parchment" */
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+    }
+
+        /* Link on hover */
+        .topnav a:hover {
+        background-color: #F4F3EE;
+        /* Color name on Coolors is "Parchment" */
+        color: #4C2719;
+        /* color name on Coolors is "Espresso" */
+    }
+
+        /* Active/current link */
+        .topnav a.active {
+        background-color: #C2A878;
+        /* Color name on Coolors is "Soft Fawn" */
+        color: #4C2719;
+        /* color name on Coolors is "Espresso" */
+    }
+
     .imagePH{
 		position: absolute;
         background-color: lightgray;
@@ -33,8 +67,6 @@
         font-size: 12;
         font-family: Berkshire Swash, Arial, sans-serif;
     }
-
-    
 
     /* Shape code goes here */
 
