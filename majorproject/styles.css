@@ -1,7 +1,7 @@
 /* Portrait code goes here */
 
     .imagePH{
-        position: relative;
+		position: relative;
         background-color: lightgray;
 		z-index: 2;
         width: 75vw;
@@ -12,6 +12,7 @@
     }
 
     /* Shape code goes here */
+
     .backShaft{
         
     }
@@ -21,31 +22,31 @@
     }
 
 	.forwardShaftPrimary{
-        position: relative;
+        position: absolute;
 		background-color: #C2A878;
 		/* Color name on Coolors is "Soft Fawn" */
 		z-index: 1;
 		width: 10vw;
 		height: 25vw;
-		margin: auto;
-		bottom: 5vh;
+		bottom: 20vh;
+		left: 45vw;
 		
     }
 
 	.forwardJoint{
-        position: relative;
+        position: absolute;
 		z-index: 1;
 		height: 25vw;
-		width: 50vw;
+		width: 45vw;
 		background-color: #C2A878;
         /* Color name on Coolors is "Soft Fawn" */
 		border-radius: 50%;
-		margin: auto;
-		bottom: 12vh;
+		bottom: 10vh;
+		left: 27vw;
     }
 
     .forwardJointInner{
-        position: relative;
+        position: absolute;
 		z-index: 2;
 		height: 25vw;
 		width: 25vw;
@@ -53,37 +54,55 @@
 		/* Color name on Coolors is "Parchment" */
 		border-radius: 50%;
 		margin: auto;
-		bottom: 22vh;
+		bottom: 7vh;
+		left: 37vw;
     }
 
 	.forwardArrowA{
-
-    }
+	    position: absolute;
+	    z-index: 3;
+	    width: 0;
+	    height: 0;
+	    border-left: 25px solid transparent;
+	    border-right: 25px solid transparent;
+	    border-top: 50px solid #C2A878;
+        /* Color name on Coolors is "Soft Fawn" */
+	    bottom: 1vw;
+	    left: 25vw;
+	}
 
 	.forwardShaftA{
-        position: relative;
+        position: absolute;
 		background-color: #C2A878;
 		/* Color name on Coolors is "Soft Fawn" */
-		width: 50vw;
-		height: 25vw;
-		bottom: 35vh;
-		margin: auto;
+		width: 45vw;
+		height: 16vw;
+		bottom: 8vh;
+		left: 27vw;
     }
 
 	.forwardArrowB{
-
+		position: absolute;
+		z-index: 3;
+		width: 0;
+		height: 0;
+		border-left: 25px solid transparent;
+		border-right: 25px solid transparent;
+		border-top: 50px solid #C2A878;
+	    /* Color name on Coolors is "Soft Fawn" */
+		right: 26vw;
+		bottom: 1vw;
     }
 
 	.forwardShaftB{
-        position: relative;
+        position: absolute;
 		z-index: 2;
 		background-color: #F4F3EE;
 		/* Color name on Coolors is "Parchment" */
 		width: 25vw;
-		height: 25vw;
-		margin: auto;
-		bottom: 49vh;
-		
+		height: 17vw;
+		bottom: 1vh;
+		left: 37vw;
     }
 
         /* Titlecard code */
