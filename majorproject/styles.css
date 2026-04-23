@@ -1,13 +1,16 @@
 /* Portrait code goes here */
 
     .imagePH{
+        position: relative;
         background-color: lightgray;
-        width: 230px;
-        height: 230px;
+		z-index: 2;
+        width: 75vw;
+        height: 75vw;
         margin: auto;
         text-align: center;
         align-content: center;
     }
+
     /* Shape code goes here */
     .backShaft{
         
@@ -22,8 +25,8 @@
 		background-color: #C2A878;
 		/* Color name on Coolors is "Soft Fawn" */
 		z-index: 1;
-		width: 50px;
-		height: 100px;
+		width: 10vw;
+		height: 25vw;
 		margin: auto;
 		bottom: 5vh;
 		
@@ -31,8 +34,9 @@
 
 	.forwardJoint{
         position: relative;
-		height: 70px;
-		width: 150px;
+		z-index: 1;
+		height: 25vw;
+		width: 50vw;
 		background-color: #C2A878;
         /* Color name on Coolors is "Soft Fawn" */
 		border-radius: 50%;
@@ -41,7 +45,15 @@
     }
 
     .forwardJointInner{
-        
+        position: relative;
+		z-index: 2;
+		height: 25vw;
+		width: 25vw;
+		background-color: #F4F3EE;
+		/* Color name on Coolors is "Parchment" */
+		border-radius: 50%;
+		margin: auto;
+		bottom: 22vh;
     }
 
 	.forwardArrowA{
@@ -52,10 +64,10 @@
         position: relative;
 		background-color: #C2A878;
 		/* Color name on Coolors is "Soft Fawn" */
-		width: 150px;
-		height: 100px;
-		bottom: 20vh;
-		left:28vw;
+		width: 50vw;
+		height: 25vw;
+		bottom: 35vh;
+		margin: auto;
     }
 
 	.forwardArrowB{
@@ -67,10 +79,10 @@
 		z-index: 2;
 		background-color: #F4F3EE;
 		/* Color name on Coolors is "Parchment" */
-		width: 50px;
-		height: 100px;
+		width: 25vw;
+		height: 25vw;
 		margin: auto;
-		bottom: 37vh;
+		bottom: 49vh;
 		
     }
 
@@ -85,7 +97,7 @@
         /* Introduction code */
         #introText{
             text-align: center;
-            margin-top: 20vh;
+            margin-top: 10vh;
             margin-right: 10vw;
             margin-left: 10vw;
         }
