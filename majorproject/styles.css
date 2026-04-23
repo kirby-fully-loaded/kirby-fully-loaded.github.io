@@ -1,14 +1,17 @@
 /* Portrait code goes here */
 
     .imagePH{
-		position: relative;
+		position: absolute;
         background-color: lightgray;
 		z-index: 2;
-        width: 75vw;
-        height: 75vw;
+        width: 45vw;
+        height: 45vw;
         margin: auto;
         text-align: center;
         align-content: center;
+		top: 27vh;
+		right: 5vw;
+		
     }
 
     /* Shape code goes here */
@@ -115,18 +118,22 @@
         }
         /* Introduction code */
         #introText{
+            position: absolute;
             text-align: center;
-            margin-top: 10vh;
-            margin-right: 10vw;
-            margin-left: 10vw;
+			width: 40vw;
+			top: 20vh;
+			left: 5vw;
+		
         }
 
         /* Content code */
         .choiceContent{
+            position: absolute;
             text-align: center;
-            margin-top: 20vh;
-            margin-right: 10vw;
-            margin-left: 10vw;
+			width: 40vw;
+			top: 20vh;
+			left: 5vw;
+		
         }
 
         /* Conclusion code */
