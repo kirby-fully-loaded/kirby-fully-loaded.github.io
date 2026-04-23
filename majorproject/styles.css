@@ -153,7 +153,7 @@ p {
 .choiceContent {
     position: absolute;
     z-index: 3;
-    font-size: 14px;
+    font-size: 13px;
     text-align: center;
     width: 70vw;
     top: 27vh;
@@ -181,7 +181,7 @@ p {
     text-align: center;
     z-index: 3;
     width: 70vw;
-    top: 20vh;
+    top: 25vh;
     left: 15vw;
 
 }
@@ -195,8 +195,8 @@ p {
     margin: auto;
     text-align: center;
     align-content: center;
-    bottom: 20vh;
-    left: 24vw;
+    bottom: 15vh;
+    left: 25vw;
 }
 
 /* Responsive Landscape starts here */
