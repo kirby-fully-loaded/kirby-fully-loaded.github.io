@@ -8,6 +8,38 @@
         text-align: center;
         align-content: center;
     }
+    /* Shape code goes here */
+    .backShaft{
+        
+    }
+
+	.backArrow{
+
+    }
+
+	.forwardShaftPrimary{
+
+    }
+
+	.forwardJoint{
+
+    }
+
+	.forwardArrowA{
+
+    }
+
+	.forwardShaftA{
+
+    }
+
+	.forwardArrowB{
+
+    }
+
+	.forwardShaftB{
+
+    }
 
         /* Titlecard code */
         #titleHead{
@@ -42,7 +74,39 @@
         }
 
 /* Responsive Landscape starts here */
+    
+    /* Responsive shape code goes here */
+    .backShaft{
 
+    }
+
+	.backArrow{
+
+    }
+
+	.forwardShaftPrimary{
+
+    }
+
+	.forwardJoint{
+
+    }
+
+	.forwardArrowA{
+
+    }
+
+	.forwardShaftA{
+
+    }
+
+	.forwardArrowB{
+
+    }
+
+	.forwardShaftB{
+        
+    }
         /* Titlecard code */
 
         /* Introduction code */
