@@ -273,7 +273,7 @@ p {
         z-index: 3;
         text-align: center;
         width: 50vw;
-        top: 2vh;
+        top: 10vh;
         left: 16vw;
 
     }
@@ -287,9 +287,9 @@ p {
         margin: auto;
         text-align: center;
         align-content: center;
-        top: 35vh;
         right: 35vw;
-        ;
+        bottom: 35vh;
+        
     }
 
     /* Introduction code */
