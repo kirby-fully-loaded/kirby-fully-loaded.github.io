@@ -117,8 +117,10 @@ p {
 
 /* Titlecard code */
 #titleHead {
+    position: absolute;
+    z-index: 3;
     text-align: center;
-    margin-top: 25vh;
+    margin-top: 10vh;
     margin-right: 10vw;
     margin-left: 10vw;
 
