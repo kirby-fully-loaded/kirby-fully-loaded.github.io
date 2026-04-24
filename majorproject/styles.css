@@ -34,6 +34,21 @@
     /* color name on Coolors is "Espresso" */
 }
 
+.beginButton {
+    position: absolute;
+    z-index: 3;
+    background-color: #4C2719;
+    /* color name on Coolors is "Espresso" */
+    color: #F4F3EE;
+    /* Color name on Coolors is "Parchment" */
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    top: 19vh;
+    left: 42vw;
+}
+
 .backButton {
     position: absolute;
     z-index: 3;
