@@ -42,11 +42,12 @@
     color: #F4F3EE;
     /* Color name on Coolors is "Parchment" */
     text-align: center;
-    padding: 14px 16px;
+    width: 25vw;
+    padding: 1vh 4vw;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 1rem;
     bottom: 19vh;
-    left: 42vw;
+    left: 35vw;
 }
 
 .backButton {
@@ -133,13 +134,13 @@ p {
     position: absolute;
     background-color: lightgray;
     z-index: 3;
-    width: 55vw;
-    height: 55vw;
+    width: 50vw;
+    height: 50vw;
     margin: auto;
     text-align: center;
     align-content: center;
     top: 34vh;
-    right: 23vw;
+    right: 25vw;
 
 }
 
@@ -159,8 +160,8 @@ p {
     position: absolute;
     background-color: lightgray;
     z-index: 3;
-    width: 45vw;
-    height: 45vw;
+    width: 50vw;
+    height: 50vw;
     margin: auto;
     text-align: center;
     align-content: center;
