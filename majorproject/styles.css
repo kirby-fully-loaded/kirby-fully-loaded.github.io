@@ -73,12 +73,12 @@
     color: #F4F3EE;
     /* Color name on Coolors is "Parchment" */
     text-align: center;
-    width: 25vw;
+    width: 27vw;
     padding: 1vh 4vw;
     text-decoration: none;
     font-size: 1rem;
     bottom: 10vh;
-    left: 15vw;
+    left: 13vw;
 }
 
 .button2 {
@@ -89,11 +89,11 @@
     color: #F4F3EE;
     /* Color name on Coolors is "Parchment" */
     text-align: center;
-    width: 25vw;
+    width: 27vw;
     padding: 1vh 4vw;
     text-decoration: none;
     font-size: 1rem;
-    right: 15vw;
+    right: 13vw;
     bottom: 10vh;
 }
 
