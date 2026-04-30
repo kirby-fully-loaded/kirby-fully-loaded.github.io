@@ -216,8 +216,9 @@ p {
     margin: auto;
     text-align: center;
     align-content: center;
-    bottom: 15vh;
+    bottom: 10vh;
     left: 25vw;
+    
 }
 
 /* Responsive Landscape starts here */
