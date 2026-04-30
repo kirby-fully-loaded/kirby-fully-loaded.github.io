@@ -280,7 +280,7 @@ p {
         text-align: center;
         width: 50vw;
         top: 10vh;
-        left: 16vw;
+        left: 15vw;
 
     }
 
@@ -288,13 +288,13 @@ p {
         position: absolute;
         background-color: lightgray;
         z-index: 3;
-        width: 45vh;
-        height: 45vh;
+        width: 25vw;
+        height: 25vw;
         margin: auto;
         text-align: center;
         align-content: center;
-        right: 35vw;
         bottom: 35vh;
+        left: 25vw;
         
     }
 
