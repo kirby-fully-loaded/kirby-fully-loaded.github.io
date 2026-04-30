@@ -250,11 +250,12 @@ p {
         color: #F4F3EE;
         /* Color name on Coolors is "Parchment" */
         text-align: center;
-        padding: 14px 16px;
+        width: 10vw;
+        padding: 1.5vh 4vw;
         text-decoration: none;
-        font-size: 17px;
+        font-size: 1rem;
+        right: 43vw;
         bottom: 45vh;
-        left: 74vw;
     }
 
     .button2 {
