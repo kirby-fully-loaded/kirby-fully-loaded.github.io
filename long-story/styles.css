@@ -3,17 +3,17 @@
 
 
 /* Responsive Landscape starts here */
-    @media screen and (orientation: landscape) {
+@media screen and (orientation: landscape) {
 
-        h1 {
-            position: sticky;
-            left: 0vw;
-            width: 100vw;
-            text-align: center;
+    h1 {
+        position: sticky;
+        left: 0vw;
+        width: 100vw;
+        text-align: center;
 
-        }
+    }
 
-        #frame1 {
+    #frame1 {
         font-size: large;
         position: absolute;
         text-align: center;
@@ -21,9 +21,9 @@
         top: 20vh;
         left: 30vw;
 
-        }
+    }
 
-        #frame2 {
+    #frame2 {
         font-size: large;
         position: absolute;
         text-align: center;
@@ -32,9 +32,9 @@
         top: 20vh;
         left: 130vw;
 
-        }
+    }
 
-        #frame3 {
+    #frame3 {
         font-size: large;
         position: absolute;
         text-align: center;
@@ -43,9 +43,9 @@
         top: 20vh;
         left: 230vw;
 
-        }
+    }
 
-        #frame4 {
+    #frame4 {
         font-size: large;
         position: absolute;
         text-align: center;
@@ -54,9 +54,9 @@
         top: 20vh;
         left: 330vw;
 
-        }
+    }
 
-        #frame5 {
+    #frame5 {
         font-size: large;
         position: absolute;
         text-align: center;
@@ -65,9 +65,9 @@
         top: 20vh;
         left: 430vw;
 
-        }
+    }
 
-        #frame6 {
+    #frame6 {
         font-size: large;
         position: absolute;
         text-align: center;
@@ -76,6 +76,6 @@
         top: 20vh;
         left: 530vw;
 
-        }
-
     }
+
+}
