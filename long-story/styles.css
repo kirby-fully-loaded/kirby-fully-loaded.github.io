@@ -251,10 +251,10 @@ p {
         position: absolute;
         background-color: lightgray;
         z-index: 3;
-        width: 30vw;
+        width: 45vw;
         height: 30vw;
         top: 37vh;
-        left: 27vw;
+        left: 15vw;
     }
 
     #image2 {
