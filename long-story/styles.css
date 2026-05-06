@@ -13,6 +13,16 @@
         top: 20vh;
         left: 30vw;
 
+        }
+
+        #frame2 {
+        font-size: large;
+        position: absolute;
+        text-align: center;
+        width: 35vw;
+        top: 20vh;
+        left: 130vw;
+
     }
 
     }
