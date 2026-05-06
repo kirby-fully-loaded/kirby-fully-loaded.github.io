@@ -1,12 +1,23 @@
-/* Portrait starts here */
+/* Universal css starts here */
+
+body {
+    color: bisque;
+    background-color: darkslategray;
+
+}
 
 h1 {
-    position: sticky;
-    left: 0vw;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     width: 100vw;
     text-align: center;
 
 }
+
+p {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* Portrait starts here */
 
 /* portrait text css starts here */
 
