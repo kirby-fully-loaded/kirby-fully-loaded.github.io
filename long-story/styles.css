@@ -108,13 +108,13 @@ p {
     position: absolute;
     background-color: lightgray;
     z-index: 3;
-    width: 50vw;
+    width: 70vw;
     height: 50vw;
     margin: auto;
     text-align: center;
     align-content: center;
     top: 160vh;
-    right: 25vw;
+    right: 15vw;
 
 }
 
@@ -122,13 +122,13 @@ p {
     position: absolute;
     background-color: lightgray;
     z-index: 3;
-    width: 50vw;
+    width: 70vw;
     height: 50vw;
     margin: auto;
     text-align: center;
     align-content: center;
     top: 260vh;
-    right: 25vw;
+    right: 15vw;
 
 }
 
@@ -136,13 +136,13 @@ p {
     position: absolute;
     background-color: lightgray;
     z-index: 3;
-    width: 50vw;
+    width: 70vw;
     height: 50vw;
     margin: auto;
     text-align: center;
     align-content: center;
     top: 360vh;
-    right: 25vw;
+    right: 15vw;
 
 }
 
@@ -150,13 +150,13 @@ p {
     position: absolute;
     background-color: lightgray;
     z-index: 3;
-    width: 50vw;
+    width: 70vw;
     height: 50vw;
     margin: auto;
     text-align: center;
     align-content: center;
     top: 460vh;
-    right: 25vw;
+    right: 15vw;
 
 }
 
@@ -164,13 +164,13 @@ p {
     position: absolute;
     background-color: lightgray;
     z-index: 3;
-    width: 50vw;
+    width: 70vw;
     height: 50vw;
     margin: auto;
     text-align: center;
     align-content: center;
     top: 560vh;
-    right: 25vw;
+    right: 15vw;
 
 }
 
