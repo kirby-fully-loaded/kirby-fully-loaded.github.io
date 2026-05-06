@@ -25,17 +25,6 @@
 
 		}
 
-		#reposLink {
-			color: darkslategray;
-			background-color: bisque;
-			text-align: center;
-			align-content: center;
-			font-size: 1rem;
-			margin: auto;
-  			width: 10vw;
-  			padding: 10px;
-		}
-
 		#gridBox1 {
 			display: grid;
 			grid: repeat(2, 60px) / auto-flow 11vw;
@@ -54,10 +43,26 @@
 
 		#gridBox2 {
 			display: grid;
-			grid: repeat(3, 60px) / auto-flow 11vw;
+			grid: repeat(2, 60px) / auto-flow 11vw;
 		}
 
 		#gridBox2 > a {
+			color: darkslategray;
+			background-color: bisque;
+			text-align: center;
+			align-content: center;
+			font-size: 1rem;
+			margin: auto;
+  			width: 10vw;
+  			height: 50px;
+		}
+
+		#gridBox3 {
+			display: grid;
+			grid: repeat(3, 60px) / auto-flow 11vw;
+		}
+
+		#gridBox3 > a {
 			color: darkslategray;
 			background-color: bisque;
 			text-align: center;
@@ -77,13 +82,16 @@
 	<h1>Robert</h1>
 	<p>I am the one who codes.</p>
 
-	<p><a href="https://github.com/kirby-fully-loaded/kirby-fully-loaded.github.io" id="reposLink">Github Repository</a>
+	<p>
+		<div id="gridBox1">
+			<a href="https://github.com/kirby-fully-loaded/kirby-fully-loaded.github.io">Github Repository</a>
+		</div>
 	</p>
 
 	<hr>
 
 	<h2>Activities</h2>
-	<div id="gridBox1">
+	<div id="gridBox2">
 		<a href="/codelogs/log1" id="cl1">Code Log 1</a>
 		<a href="/codelogs/log2" id="cl2">Code Log 2</a>
 		<a href="/codelogs/log3" id="cl3">Code Log 3</a>
@@ -94,7 +102,7 @@
 	<hr>
 
 	<h2>Tiny Projects</h2>
-	<div id="gridBox2">
+	<div id="gridBox3">
 		<a href="/favorite-recipe/index.html" id="tp2">Favorite Recipe</a>
 		<a href="/anni-albers/index.html" id="tp3a">Design Quote Layout 1</a>
 		<a href="/anni-albers/index2.html" id="tp3b">Design Quote Layout 2</a>
