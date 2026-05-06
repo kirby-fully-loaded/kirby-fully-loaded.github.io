@@ -24,6 +24,50 @@
         top: 20vh;
         left: 130vw;
 
-    }
+        }
+
+        #frame3 {
+        font-size: large;
+        position: absolute;
+        text-align: center;
+        width: 40vw;
+        padding-right: 30vw;
+        top: 20vh;
+        left: 230vw;
+
+        }
+
+        #frame4 {
+        font-size: large;
+        position: absolute;
+        text-align: center;
+        width: 40vw;
+        padding-right: 30vw;
+        top: 20vh;
+        left: 330vw;
+
+        }
+
+        #frame5 {
+        font-size: large;
+        position: absolute;
+        text-align: center;
+        width: 40vw;
+        padding-right: 30vw;
+        top: 20vh;
+        left: 430vw;
+
+        }
+
+        #frame6 {
+        font-size: large;
+        position: absolute;
+        text-align: center;
+        width: 40vw;
+        padding-right: 30vw;
+        top: 20vh;
+        left: 530vw;
+
+        }
 
     }
