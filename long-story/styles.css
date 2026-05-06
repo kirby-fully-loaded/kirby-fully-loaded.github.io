@@ -241,68 +241,58 @@ h1 {
         z-index: 3;
         width: 30vw;
         height: 30vw;
-        top: 40vh;
-        left: 25vw;
+        top: 37vh;
+        left: 30vw;
     }
 
     #image2 {
         position: absolute;
         background-color: lightgray;
         z-index: 3;
-        width: 45vh;
-        height: 45vh;
-        text-align: center;
-        align-content: center;
-        top: 35vh;
-        left: 18vw;
+        width: 30vw;
+        height: 30vw;
+        top: 37vh;
+        left: 130vw;
     }
 
     #image3 {
         position: absolute;
         background-color: lightgray;
         z-index: 3;
-        width: 45vh;
-        height: 45vh;
-        text-align: center;
-        align-content: center;
-        top: 35vh;
-        left: 18vw;
+        width: 30vw;
+        height: 30vw;
+        top: 37vh;
+        left: 230vw;
     }
 
     #image4 {
         position: absolute;
         background-color: lightgray;
         z-index: 3;
-        width: 45vh;
-        height: 45vh;
-        text-align: center;
-        align-content: center;
-        top: 35vh;
-        left: 18vw;
+        width: 30vw;
+        height: 30vw;
+        top: 37vh;
+        left: 330vw;
     }
 
     #image5 {
         position: absolute;
         background-color: lightgray;
         z-index: 3;
-        width: 45vh;
-        height: 45vh;
-        text-align: center;
-        align-content: center;
-        top: 35vh;
-        left: 18vw;
+        width: 30vw;
+        height: 30vw;
+        top: 37vh;
+        left: 430vw;
     }
 
     #image6 {
         position: absolute;
         background-color: lightgray;
         z-index: 3;
-        width: 45vh;
-        height: 45vh;
-        text-align: center;
-        align-content: center;
-        top: 35vh;
-        left: 18vw;
+        width: 30vw;
+        height: 30vw;
+        top: 37vh;
+        left: 530vw;
     }
 
 }
