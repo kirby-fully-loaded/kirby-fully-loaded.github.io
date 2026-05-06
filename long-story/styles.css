@@ -1,12 +1,12 @@
 /* Portrait starts here */
 
 h1 {
-        position: sticky;
-        left: 0vw;
-        width: 100vw;
-        text-align: center;
+    position: sticky;
+    left: 0vw;
+    width: 100vw;
+    text-align: center;
 
-    }
+}
 
 #frame1 {
     position: absolute;
