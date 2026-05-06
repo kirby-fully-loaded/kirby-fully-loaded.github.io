@@ -94,13 +94,13 @@ p {
     position: absolute;
     background-color: lightgray;
     z-index: 3;
-    width: 50vw;
+    width: 70vw;
     height: 50vw;
     margin: auto;
     text-align: center;
     align-content: center;
     top: 60vh;
-    right: 25vw;
+    right: 15vw;
 
 }
 
