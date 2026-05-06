@@ -78,7 +78,77 @@ h1 {
 
 /* portrait image css starts here */
 
-.imageCode {
+#image1 {
+    position: absolute;
+    background-color: lightgray;
+    z-index: 3;
+    width: 50vw;
+    height: 50vw;
+    margin: auto;
+    text-align: center;
+    align-content: center;
+    top: 40vh;
+    right: 25vw;
+
+}
+
+#image2 {
+    position: absolute;
+    background-color: lightgray;
+    z-index: 3;
+    width: 50vw;
+    height: 50vw;
+    margin: auto;
+    text-align: center;
+    align-content: center;
+    top: 40vh;
+    right: 25vw;
+
+}
+
+#image3 {
+    position: absolute;
+    background-color: lightgray;
+    z-index: 3;
+    width: 50vw;
+    height: 50vw;
+    margin: auto;
+    text-align: center;
+    align-content: center;
+    top: 40vh;
+    right: 25vw;
+
+}
+
+#image4 {
+    position: absolute;
+    background-color: lightgray;
+    z-index: 3;
+    width: 50vw;
+    height: 50vw;
+    margin: auto;
+    text-align: center;
+    align-content: center;
+    top: 40vh;
+    right: 25vw;
+
+}
+
+#image5 {
+    position: absolute;
+    background-color: lightgray;
+    z-index: 3;
+    width: 50vw;
+    height: 50vw;
+    margin: auto;
+    text-align: center;
+    align-content: center;
+    top: 40vh;
+    right: 25vw;
+
+}
+
+#image6 {
     position: absolute;
     background-color: lightgray;
     z-index: 3;
@@ -165,7 +235,67 @@ h1 {
 
     /* landscape image css starts here */
 
-    .imageCode {
+    #image1 {
+        position: absolute;
+        background-color: lightgray;
+        z-index: 3;
+        width: 45vh;
+        height: 45vh;
+        text-align: center;
+        align-content: center;
+        top: 35vh;
+        left: 18vw;
+    }
+
+    #image2 {
+        position: absolute;
+        background-color: lightgray;
+        z-index: 3;
+        width: 45vh;
+        height: 45vh;
+        text-align: center;
+        align-content: center;
+        top: 35vh;
+        left: 18vw;
+    }
+
+    #image3 {
+        position: absolute;
+        background-color: lightgray;
+        z-index: 3;
+        width: 45vh;
+        height: 45vh;
+        text-align: center;
+        align-content: center;
+        top: 35vh;
+        left: 18vw;
+    }
+
+    #image4 {
+        position: absolute;
+        background-color: lightgray;
+        z-index: 3;
+        width: 45vh;
+        height: 45vh;
+        text-align: center;
+        align-content: center;
+        top: 35vh;
+        left: 18vw;
+    }
+
+    #image5 {
+        position: absolute;
+        background-color: lightgray;
+        z-index: 3;
+        width: 45vh;
+        height: 45vh;
+        text-align: center;
+        align-content: center;
+        top: 35vh;
+        left: 18vw;
+    }
+
+    #image6 {
         position: absolute;
         background-color: lightgray;
         z-index: 3;
