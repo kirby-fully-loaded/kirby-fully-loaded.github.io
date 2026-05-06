@@ -32,6 +32,18 @@
 			font-size: 1rem;
 
 		}
+
+		#gridBox1 {
+			display: grid;
+			grid: repeat(2, 60px) / auto-flow 80px;
+		}
+
+		#gridBox1 > a {
+			background-color: #8ca0ff;
+  			width: 50px;
+  			height: 50px;
+		}
+
 	</style>
 
 </head>
@@ -47,13 +59,14 @@
 	<hr>
 
 	<h2>Activities</h2>
+	<div id="gridBox1">
 		<a href="/codelogs/log1" id="cl1">Code Log 1</a>
 		<a href="/codelogs/log2" id="cl2">Code Log 2</a>
 		<a href="/codelogs/log3" id="cl3">Code Log 3</a>
 		<a href="/codelogs/log4" id="cl4">Code Log 4</a>
 		<a href="/codelogs/log5" id="cl5">Code Log 5</a>
 		<a href="/codelogs/log6" id="cl6">Code Log 6</a>
-
+	</div>
 	<hr>
 
 	<h2>Tiny Projects</h2>
