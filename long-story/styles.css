@@ -1,17 +1,81 @@
 /* Portrait starts here */
 
-
-
-/* Responsive Landscape starts here */
-@media screen and (orientation: landscape) {
-
-    h1 {
+h1 {
         position: sticky;
         left: 0vw;
         width: 100vw;
         text-align: center;
 
     }
+
+#frame1 {
+    position: absolute;
+    z-index: 3;
+    text-align: center;
+    margin: auto;
+    width: 65vw;
+    top: 20vh;
+    left: 19vw;
+
+}
+
+#frame2 {
+    position: absolute;
+    z-index: 3;
+    text-align: center;
+    margin: auto;
+    width: 65vw;
+    top: 120vh;
+    left: 19vw;
+
+}
+
+#frame3 {
+    position: absolute;
+    z-index: 3;
+    text-align: center;
+    margin: auto;
+    width: 65vw;
+    top: 220vh;
+    left: 19vw;
+
+}
+
+#frame4 {
+    position: absolute;
+    z-index: 3;
+    text-align: center;
+    margin: auto;
+    width: 65vw;
+    top: 320vh;
+    left: 19vw;
+
+}
+
+#frame5 {
+    position: absolute;
+    z-index: 3;
+    text-align: center;
+    margin: auto;
+    width: 65vw;
+    top: 420vh;
+    left: 19vw;
+
+}
+
+#frame6 {
+    position: absolute;
+    z-index: 3;
+    text-align: center;
+    margin: auto;
+    width: 65vw;
+    top: 520vh;
+    left: 19vw;
+
+}
+
+/* Responsive Landscape starts here */
+@media screen and (orientation: landscape) {
 
     #frame1 {
         font-size: large;
