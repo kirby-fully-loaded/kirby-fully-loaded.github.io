@@ -73,6 +73,7 @@ h1 {
     width: 60vw;
     top: 520vh;
     left: 20vw;
+    padding-bottom: 50vh
 
 }
 
@@ -159,7 +160,6 @@ h1 {
     align-content: center;
     top: 560vh;
     right: 25vw;
-    padding-bottom: 30vh;
 
 }
 
