@@ -239,12 +239,10 @@ h1 {
         position: absolute;
         background-color: lightgray;
         z-index: 3;
-        width: 45vh;
-        height: 45vh;
-        text-align: center;
-        align-content: center;
-        top: 35vh;
-        left: 18vw;
+        width: 30vw;
+        height: 30vw;
+        top: 40vh;
+        left: 25vw;
     }
 
     #image2 {
