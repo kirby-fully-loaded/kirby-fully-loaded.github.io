@@ -13,9 +13,9 @@ h1 {
     z-index: 3;
     text-align: center;
     margin: auto;
-    width: 65vw;
+    width: 60vw;
     top: 20vh;
-    left: 19vw;
+    left: 20vw;
 
 }
 
@@ -24,9 +24,9 @@ h1 {
     z-index: 3;
     text-align: center;
     margin: auto;
-    width: 65vw;
+    width: 60vw;
     top: 120vh;
-    left: 19vw;
+    left: 20vw;
 
 }
 
@@ -35,9 +35,9 @@ h1 {
     z-index: 3;
     text-align: center;
     margin: auto;
-    width: 65vw;
+    width: 60vw;
     top: 220vh;
-    left: 19vw;
+    left: 20vw;
 
 }
 
@@ -46,9 +46,9 @@ h1 {
     z-index: 3;
     text-align: center;
     margin: auto;
-    width: 65vw;
+    width: 60vw;
     top: 320vh;
-    left: 19vw;
+    left: 20vw;
 
 }
 
@@ -57,9 +57,9 @@ h1 {
     z-index: 3;
     text-align: center;
     margin: auto;
-    width: 65vw;
+    width: 60vw;
     top: 420vh;
-    left: 19vw;
+    left: 20vw;
 
 }
 
@@ -68,9 +68,23 @@ h1 {
     z-index: 3;
     text-align: center;
     margin: auto;
-    width: 65vw;
+    width: 60vw;
     top: 520vh;
-    left: 19vw;
+    left: 20vw;
+
+}
+
+.imageCode {
+    position: absolute;
+    background-color: lightgray;
+    z-index: 3;
+    width: 50vw;
+    height: 50vw;
+    margin: auto;
+    text-align: center;
+    align-content: center;
+    top: 40vh;
+    right: 25vw;
 
 }
 
@@ -140,6 +154,18 @@ h1 {
         top: 20vh;
         left: 530vw;
 
+    }
+
+    .imageCode {
+        position: absolute;
+        background-color: lightgray;
+        z-index: 3;
+        width: 45vh;
+        height: 45vh;
+        text-align: center;
+        align-content: center;
+        top: 35vh;
+        left: 18vw;
     }
 
 }
