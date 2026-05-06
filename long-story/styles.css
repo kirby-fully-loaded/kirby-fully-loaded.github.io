@@ -91,7 +91,6 @@ p {
 /* portrait image css starts here */
 
 #image1 {
-    image: url(long-story/image1.jpg);
     position: absolute;
     background-color: lightgray;
     z-index: 3;
