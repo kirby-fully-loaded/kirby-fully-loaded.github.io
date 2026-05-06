@@ -261,10 +261,10 @@ p {
         position: absolute;
         background-color: lightgray;
         z-index: 3;
-        width: 30vw;
+        width: 40vw;
         height: 30vw;
         top: 37vh;
-        left: 135vw;
+        left: 132vw;
     }
 
     #image3 {
@@ -281,30 +281,30 @@ p {
         position: absolute;
         background-color: lightgray;
         z-index: 3;
-        width: 30vw;
+        width: 40vw;
         height: 30vw;
         top: 37vh;
-        left: 335vw;
+        left: 330vw;
     }
 
     #image5 {
         position: absolute;
         background-color: lightgray;
         z-index: 3;
-        width: 30vw;
+        width: 40vw;
         height: 30vw;
         top: 37vh;
-        left: 435vw;
+        left: 430vw;
     }
 
     #image6 {
         position: absolute;
         background-color: lightgray;
         z-index: 3;
-        width: 30vw;
+        width: 40vw;
         height: 30vw;
         top: 37vh;
-        left: 535vw;
+        left: 530vw;
     }
 
 }
