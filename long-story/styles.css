@@ -5,6 +5,14 @@
 /* Responsive Landscape starts here */
     @media screen and (orientation: landscape) {
 
+        h1 {
+            position: sticky;
+            left: 0vw;
+            width: 100vw;
+            text-align: center;
+
+        }
+
         #frame1 {
         font-size: large;
         position: absolute;
