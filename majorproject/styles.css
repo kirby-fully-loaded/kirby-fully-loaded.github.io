@@ -225,7 +225,7 @@ p {
 /* Responsive Landscape starts here */
 @media screen and (orientation: landscape) {
 
-    /* Responsive shape code goes here */
+    /* Responsive button code goes here */
 
     .backButton {
         position: absolute;

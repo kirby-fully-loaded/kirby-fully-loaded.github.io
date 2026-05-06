@@ -1,0 +1,18 @@
+/* Portrait starts here */
+
+
+
+/* Responsive Landscape starts here */
+    @media screen and (orientation: landscape) {
+
+        #frame1 {
+        font-size: large;
+        position: absolute;
+        text-align: center;
+        width: 35vw;
+        top: 20vh;
+        left: 30vw;
+
+    }
+
+    }
