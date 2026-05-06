@@ -198,7 +198,7 @@ p {
         height: 30vw;
         top: 37vh;
         left: 132vw;
-        
+
     }
 
     #frame3 {
@@ -271,10 +271,10 @@ p {
         position: absolute;
         background-color: lightgray;
         z-index: 3;
-        width: 30vw;
+        width: 40vw;
         height: 30vw;
         top: 37vh;
-        left: 235vw;
+        left: 230vw;
     }
 
     #image4 {
