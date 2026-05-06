@@ -190,15 +190,15 @@ p {
 
     }
 
-    #frame2 {
-        font-size: large;
+    #image2 {
         position: absolute;
-        text-align: center;
-        width: 40vw;
-        padding-right: 30vw;
-        top: 20vh;
-        left: 130vw;
-
+        background-color: lightgray;
+        z-index: 3;
+        width: 35vw;
+        height: 30vw;
+        top: 37vh;
+        left: 132vw;
+        
     }
 
     #frame3 {
