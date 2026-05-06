@@ -87,7 +87,7 @@ h1 {
     margin: auto;
     text-align: center;
     align-content: center;
-    top: 40vh;
+    top: 60vh;
     right: 25vw;
 
 }
@@ -101,7 +101,7 @@ h1 {
     margin: auto;
     text-align: center;
     align-content: center;
-    top: 40vh;
+    top: 160vh;
     right: 25vw;
 
 }
@@ -115,7 +115,7 @@ h1 {
     margin: auto;
     text-align: center;
     align-content: center;
-    top: 40vh;
+    top: 260vh;
     right: 25vw;
 
 }
@@ -129,7 +129,7 @@ h1 {
     margin: auto;
     text-align: center;
     align-content: center;
-    top: 40vh;
+    top: 360vh;
     right: 25vw;
 
 }
@@ -143,7 +143,7 @@ h1 {
     margin: auto;
     text-align: center;
     align-content: center;
-    top: 40vh;
+    top: 460vh;
     right: 25vw;
 
 }
@@ -157,8 +157,9 @@ h1 {
     margin: auto;
     text-align: center;
     align-content: center;
-    top: 40vh;
+    top: 560vh;
     right: 25vw;
+    padding-bottom: 30vh;
 
 }
 
