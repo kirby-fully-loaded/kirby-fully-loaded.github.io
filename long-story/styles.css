@@ -8,6 +8,8 @@ h1 {
 
 }
 
+/* portrait text css starts here */
+
 #frame1 {
     position: absolute;
     z-index: 3;
@@ -74,6 +76,8 @@ h1 {
 
 }
 
+/* portrait image css starts here */
+
 .imageCode {
     position: absolute;
     background-color: lightgray;
@@ -90,6 +94,9 @@ h1 {
 
 /* Responsive Landscape starts here */
 @media screen and (orientation: landscape) {
+
+
+    /* Landscape text css starts here */
 
     #frame1 {
         font-size: large;
@@ -155,6 +162,8 @@ h1 {
         left: 530vw;
 
     }
+
+    /* landscape image css starts here */
 
     .imageCode {
         position: absolute;
