@@ -180,6 +180,10 @@ p {
     bottom: 0vh;
 }
 
+a{
+    color: bisque;
+}
+
 /* Responsive Landscape starts here */
 @media screen and (orientation: landscape) {
 
