@@ -203,7 +203,7 @@ p {
     font-size: 1rem;
     z-index: 3;
     width: 70vw;
-    top: 25vh;
+    top: 20vh;
     left: 15vw;
 
 }
@@ -357,6 +357,7 @@ p {
 
     .conclusionContent {
         text-align: center;
+        top: 25vh;
 
     }
 
