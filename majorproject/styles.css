@@ -390,3 +390,10 @@ body {
     font-family: Birthstone, Arial, sans-serif;
 
 }
+
+footer {
+    position: absolute;
+    text-align: center;
+    font-size: 10pt;
+    bottom: 0vh;
+}
