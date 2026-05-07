@@ -394,6 +394,7 @@ body {
 .attribution {
     position: absolute;
     text-align: center;
+    width: 100vw;
     font-size: 10pt;
     bottom: 0;
 }
